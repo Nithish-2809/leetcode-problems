@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/Nithish-2809/leetcode-problems/tree/master/0016-3sum-closest) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
+| [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
+| [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 ## Two Pointers
@@ -49,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
