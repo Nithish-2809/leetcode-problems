@@ -10,14 +10,14 @@ public:
         while(r<n) {
             freqMap[nums[r]]++;
 
-            while(freqMap.size()>2) {
+            if(freqMap.size()>2) {
                 freqMap[nums[l]]--;
                 if(freqMap[nums[l]]==0) freqMap.erase(nums[l]);
                 l++;
             }
-
-            maxLen = max(maxLen,r-l+1);
-
+            if(freqMap.size()<=2) {
+                maxLen = max(maxLen,r-l+1);
+            }
             r++;
         }
 
