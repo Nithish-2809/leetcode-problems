@@ -13,7 +13,7 @@ public:
 
             maxFreq = max(maxFreq,freqMap[s[r]]);
 
-            while((r-l+1)-maxFreq>k) {
+            if((r-l+1)-maxFreq>k) {
                 freqMap[s[l]]--;
                 maxFreq = 0;
                 for(auto it : freqMap) {
@@ -21,9 +21,9 @@ public:
                 }
                 l++;
             }
-
-            maxLen = max(maxLen,r-l+1);
-
+            if((r-l+1)-maxFreq<=k) {
+                maxLen = max(maxLen,r-l+1);
+            }
             r++;
         }
 
