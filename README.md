@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0992-subarrays-with-k-different-integers) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/Nithish-2809/leetcode-problems/tree/master/0155-min-stack) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
 ## Design
 |  |
 | ------- |
@@ -106,4 +108,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
+## Simulation
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
 <!---LeetCode Topics End-->
