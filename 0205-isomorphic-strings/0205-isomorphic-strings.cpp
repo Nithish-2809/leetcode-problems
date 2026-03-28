@@ -8,8 +8,8 @@ public:
         unordered_map<char,char>mapts;
 
         for(int i=0;i<n;i++) {
-            int sChar = s[i];
-            int tChar = t[i];
+            char sChar = s[i];
+            char tChar = t[i];
 
             if(mapst.find(sChar)!=mapst.end()) {
                 if(mapst[sChar]!=tChar) {
