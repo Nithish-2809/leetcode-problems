@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0014-longest-common-prefix) |
 | [0016-3sum-closest](https://github.com/Nithish-2809/leetcode-problems/tree/master/0016-3sum-closest) |
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Nithish-2809/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Nithish-2809/leetcode-problems/tree/master/0076-minimum-window-substring) |
 | [0402-remove-k-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0402-remove-k-digits) |
@@ -160,4 +162,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/Nithish-2809/leetcode-problems/tree/master/0901-online-stock-span) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
