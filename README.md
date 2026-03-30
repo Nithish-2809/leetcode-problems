@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0239-sliding-window-maximum) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
+| [0643-maximum-average-subarray-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
 | [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Nithish-2809/leetcode-problems/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Nithish-2809/leetcode-problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0643-maximum-average-subarray-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0992-subarrays-with-k-different-integers) |
