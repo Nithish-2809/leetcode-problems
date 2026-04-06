@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/Nithish-2809/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0204-count-primes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0204-count-primes) |
 | [0239-sliding-window-maximum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0239-sliding-window-maximum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [1004-max-consecutive-ones-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1004-max-consecutive-ones-iii) |
 ## Sorting
@@ -220,4 +222,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0029-divide-two-integers) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
+## Matrix
+|  |
+| ------- |
+| [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 <!---LeetCode Topics End-->
