@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0151-reverse-words-in-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0557-reverse-words-in-a-string-iii) |
+| [1768-merge-strings-alternately](https://github.com/Nithish-2809/leetcode-problems/tree/master/1768-merge-strings-alternately) |
 ## Binary Search
 |  |
 | ------- |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1768-merge-strings-alternately](https://github.com/Nithish-2809/leetcode-problems/tree/master/1768-merge-strings-alternately) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
 ## Stack
