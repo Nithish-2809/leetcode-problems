@@ -1,5 +1,5 @@
-int atMostOdds(vector<int>nums,int k) {
-    int n =  nums.size();
+int atMostKOdds(vector<int>nums,int k) {
+    int n = nums.size();
     int l = 0;
     int r = 0;
     int cnt = 0;
@@ -9,7 +9,9 @@ int atMostOdds(vector<int>nums,int k) {
         if(nums[r]%2==1) odds++;
 
         while(odds>k) {
-            if(nums[l]%2==1) odds--;
+            if(nums[l]%2==1) {
+                odds--;
+            }
             l++;
         }
 
@@ -27,6 +29,6 @@ class Solution {
 public:
     int numberOfSubarrays(vector<int>& nums, int k) {
         
-        return atMostOdds(nums,k)- atMostOdds(nums,k-1);
+        return atMostKOdds(nums,k)-atMostKOdds(nums,k-1);
     }
 };
