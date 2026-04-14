@@ -9,19 +9,14 @@ public:
         }
 
         int leftSum = 0;
-        int index = -1;
 
         for(int i=0;i<n;i++) {
-            int rightSum = totalSum-leftSum-nums[i];
-
-            if(leftSum==rightSum) {
-                index = i;
-                break;
-            }
-
+            int rightSum = totalSum - leftSum-nums[i];
+            if(leftSum==rightSum) return i;
             leftSum += nums[i];
         }
 
-        return index;
+
+        return -1;
     }
 };
