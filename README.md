@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/1848-minimum-distance-to-the-target-element) |
 | [2104-sum-of-subarray-ranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/2104-sum-of-subarray-ranges) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-merge-strings-alternately](https://github.com/Nithish-2809/leetcode-problems/tree/master/1768-merge-strings-alternately) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 ## Stack
 |  |
 | ------- |
