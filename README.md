@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Two Pointers
 |  |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Prefix Sum
 |  |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0796-rotate-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1021-remove-outermost-parentheses) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1768-merge-strings-alternately](https://github.com/Nithish-2809/leetcode-problems/tree/master/1768-merge-strings-alternately) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
