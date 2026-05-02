@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0728-self-dividing-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0728-self-dividing-numbers) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/Nithish-2809/leetcode-problems/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0992-subarrays-with-k-different-integers) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/Nithish-2809/leetcode-problems/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
