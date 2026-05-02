@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Nithish-2809/leetcode-problems/tree/master/0050-powx-n) |
 | [0204-count-primes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0204-count-primes) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
+| [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
+| [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
 ## Simulation
 |  |
 | ------- |
