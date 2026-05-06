@@ -1,21 +1,26 @@
 void generateSubsequences(int k,int n,int sum,vector<vector<int>>&ans,vector<int>&ds,int index) {
-    if(index<=10 && ds.size()==k) {
-        if(sum==n) {
-            ans.push_back(ds);
+    
+    if(sum > n) return;
+        if(ds.size() == k) {
+
+            if(sum == n) {
+                ans.push_back(ds);
+            }
+
+            return;
         }
-        return;
-    } 
-    if(index>10) return;
+        if(index > 9) return;
 
-    sum += index;
-    ds.push_back(index);
-    generateSubsequences(k,n,sum,ans,ds,index+1);
-    sum -= index;
-    ds.pop_back();
-    generateSubsequences(k,n,sum,ans,ds,index+1);
-}
+        
+        sum += index;
+        ds.push_back(index);
 
-
+        generateSubsequences(k,n,sum,ans,ds,index + 1);
+        sum -= index;
+        ds.pop_back();
+        
+        generateSubsequences(k,n,sum,ans, ds,index + 1);
+    }
 
 
 
