@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Nithish-2809/leetcode-problems/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Nithish-2809/leetcode-problems/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2104-sum-of-subarray-ranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/2104-sum-of-subarray-ranges) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Nithish-2809/leetcode-problems/tree/master/2452-words-within-two-edits-of-dictionary) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0557-reverse-words-in-a-string-iii) |
 | [1768-merge-strings-alternately](https://github.com/Nithish-2809/leetcode-problems/tree/master/1768-merge-strings-alternately) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Nithish-2809/leetcode-problems/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
 ## Binary Search
 |  |
 | ------- |
@@ -295,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
 ## Binary Indexed Tree
 |  |
 | ------- |
