@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Nithish-2809/leetcode-problems/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
+| [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2104-sum-of-subarray-ranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/2104-sum-of-subarray-ranges) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Nithish-2809/leetcode-problems/tree/master/2452-words-within-two-edits-of-dictionary) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
+| [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 ## Greedy
 |  |
 | ------- |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
+| [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 ## Binary Indexed Tree
 |  |
 | ------- |
