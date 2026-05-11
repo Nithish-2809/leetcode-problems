@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nithish-2809/leetcode-problems/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/Nithish-2809/leetcode-problems/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/Nithish-2809/leetcode-problems/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Nithish-2809/leetcode-problems/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/Nithish-2809/leetcode-problems/tree/master/0146-lru-cache) |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/Nithish-2809/leetcode-problems/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
@@ -336,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Nithish-2809/leetcode-problems/tree/master/0051-n-queens) |
