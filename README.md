@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2104-sum-of-subarray-ranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/2104-sum-of-subarray-ranges) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Nithish-2809/leetcode-problems/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2553-separate-the-digits-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2553-separate-the-digits-in-an-array) |
 | [2615-sum-of-distances](https://github.com/Nithish-2809/leetcode-problems/tree/master/2615-sum-of-distances) |
 ## Hash Table
 |  |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
+| [2553-separate-the-digits-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2553-separate-the-digits-in-an-array) |
 ## Greedy
 |  |
 | ------- |
