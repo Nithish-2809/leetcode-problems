@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0002-add-two-numbers) |
+| [0023-merge-k-sorted-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Nithish-2809/leetcode-problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/Nithish-2809/leetcode-problems/tree/master/0146-lru-cache) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
@@ -347,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
@@ -372,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0023-merge-k-sorted-lists) |
 | [0493-reverse-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0493-reverse-pairs) |
 ## Ordered Set
 |  |
