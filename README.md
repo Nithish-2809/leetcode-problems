@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1306-jump-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1306-jump-game-iii) |
+| [1331-rank-transform-of-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1331-rank-transform-of-an-array) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Nithish-2809/leetcode-problems/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/1848-minimum-distance-to-the-target-element) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0992-subarrays-with-k-different-integers) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Nithish-2809/leetcode-problems/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
+| [1331-rank-transform-of-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Nithish-2809/leetcode-problems/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1331-rank-transform-of-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1331-rank-transform-of-an-array) |
 | [2126-destroying-asteroids](https://github.com/Nithish-2809/leetcode-problems/tree/master/2126-destroying-asteroids) |
 | [2784-check-if-array-is-good](https://github.com/Nithish-2809/leetcode-problems/tree/master/2784-check-if-array-is-good) |
 ## Linked List
