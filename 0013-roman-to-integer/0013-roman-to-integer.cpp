@@ -1,28 +1,40 @@
+int getNumber(char c) {
+    if(c=='I') return 1;
+    if(c=='V') return 5;
+    if(c=='X') return 10;
+    if(c=='L') return 50;
+    if(c=='C') return 100;
+    if(c=='D') return 500;
+    return 1000;
+}
+
+
+
+
+
+
 class Solution {
 public:
     int romanToInt(string s) {
         int n = s.length();
-        unordered_map<char,int>romanMap;
+        int sum = 0;
+        int num = getNumber(s[0]);
 
-        romanMap['I'] = 1;
-        romanMap['V'] = 5;
-        romanMap['X'] = 10;
-        romanMap['L'] = 50;
-        romanMap['C'] = 100;
-        romanMap['D'] = 500;
-        romanMap['M'] = 1000;
+        sum += num;
 
-        int ans = 0;
+        for(int i=1;i<n;i++) {
+            
+            int num = getNumber(s[i]);
 
-        for(int i=0;i<n;i++) {
-            if(i<n-1 && romanMap[s[i]]<romanMap[s[i+1]]) {
-                ans -=romanMap[s[i]];
+            if(num>getNumber(s[i-1])) {
+                sum += abs(getNumber(s[i-1])-num);
+                sum -= getNumber(s[i-1]);
             }
             else {
-                ans += romanMap[s[i]];
+                sum += num;
             }
         }
 
-        return ans;
+        return sum;
     }
 };
