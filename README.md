@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3689-maximum-total-subarray-value-i) |
+| [3838-weighted-word-mapping](https://github.com/Nithish-2809/leetcode-problems/tree/master/3838-weighted-word-mapping) |
 ## Hash Table
 |  |
 | ------- |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/Nithish-2809/leetcode-problems/tree/master/2833-furthest-point-from-origin) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3838-weighted-word-mapping](https://github.com/Nithish-2809/leetcode-problems/tree/master/3838-weighted-word-mapping) |
 ## Stack
 |  |
 | ------- |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Nithish-2809/leetcode-problems/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2553-separate-the-digits-in-an-array) |
+| [3838-weighted-word-mapping](https://github.com/Nithish-2809/leetcode-problems/tree/master/3838-weighted-word-mapping) |
 ## Greedy
 |  |
 | ------- |
