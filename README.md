@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Nithish-2809/leetcode-problems/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Nithish-2809/leetcode-problems/tree/master/0051-n-queens) |
+| [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nithish-2809/leetcode-problems/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Nithish-2809/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Nithish-2809/leetcode-problems/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
+| [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
 | [0079-word-search](https://github.com/Nithish-2809/leetcode-problems/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
