@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Nithish-2809/leetcode-problems/tree/master/0050-powx-n) |
 | [0204-count-primes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0204-count-primes) |
 | [0263-ugly-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0263-ugly-number) |
+| [0384-shuffle-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0384-shuffle-an-array) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0728-self-dividing-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0728-self-dividing-numbers) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Nithish-2809/leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0384-shuffle-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0384-shuffle-an-array) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Nithish-2809/leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0355-design-twitter) |
+| [0384-shuffle-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0384-shuffle-an-array) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Nithish-2809/leetcode-problems/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/Nithish-2809/leetcode-problems/tree/master/0901-online-stock-span) |
 ## Monotonic Stack
@@ -621,4 +624,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0584-find-customer-referee](https://github.com/Nithish-2809/leetcode-problems/tree/master/0584-find-customer-referee) |
 | [1757-recyclable-and-low-fat-products](https://github.com/Nithish-2809/leetcode-problems/tree/master/1757-recyclable-and-low-fat-products) |
+## Randomized
+|  |
+| ------- |
+| [0384-shuffle-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0384-shuffle-an-array) |
 <!---LeetCode Topics End-->
