@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Nithish-2809/leetcode-problems/tree/master/2161-partition-array-according-to-given-pivot) |
+| [2938-separate-black-and-white-balls](https://github.com/Nithish-2809/leetcode-problems/tree/master/2938-separate-black-and-white-balls) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Binary Search
 |  |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Nithish-2809/leetcode-problems/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/Nithish-2809/leetcode-problems/tree/master/2833-furthest-point-from-origin) |
+| [2938-separate-black-and-white-balls](https://github.com/Nithish-2809/leetcode-problems/tree/master/2938-separate-black-and-white-balls) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/3614-process-string-with-special-operations-ii) |
@@ -380,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/Nithish-2809/leetcode-problems/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Nithish-2809/leetcode-problems/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2938-separate-black-and-white-balls](https://github.com/Nithish-2809/leetcode-problems/tree/master/2938-separate-black-and-white-balls) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3689-maximum-total-subarray-value-i) |
 ## Doubly-Linked List
