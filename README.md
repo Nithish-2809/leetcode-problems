@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Nithish-2809/leetcode-problems/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Nithish-2809/leetcode-problems/tree/master/0051-n-queens) |
+| [0055-jump-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0055-jump-game) |
 | [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nithish-2809/leetcode-problems/tree/master/0079-word-search) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Nithish-2809/leetcode-problems/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0055-jump-game) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
@@ -391,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
