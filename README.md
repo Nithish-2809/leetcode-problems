@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0384-shuffle-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0384-shuffle-an-array) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0493-reverse-pairs) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Nithish-2809/leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0846-hand-of-straights](https://github.com/Nithish-2809/leetcode-problems/tree/master/0846-hand-of-straights) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -398,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0605-can-place-flowers) |
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
