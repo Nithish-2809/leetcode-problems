@@ -554,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0938-range-sum-of-bst](https://github.com/Nithish-2809/leetcode-problems/tree/master/0938-range-sum-of-bst) |
@@ -644,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Nithish-2809/leetcode-problems/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -688,4 +690,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/Nithish-2809/leetcode-problems/tree/master/1833-maximum-ice-cream-bars) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
