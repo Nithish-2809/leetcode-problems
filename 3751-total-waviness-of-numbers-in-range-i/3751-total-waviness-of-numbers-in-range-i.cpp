@@ -1,28 +1,21 @@
-int calculateWaviness(int n) {
-    int ans = 0;
-    vector<int>arr;
+int calculateWaviness(int num) {
+    string s = to_string(num);
 
-    while(n>0) {
-        int ld = n%10;
-        arr.push_back(ld);
-        n = n/10;
+    int n = s.size();
+
+    int waviness = 0;
+
+    for(int i=1;i<n-1;i++) {
+        if(s[i]-'0'>s[i-1]-'0' && s[i]-'0'>s[i+1]-'0') {
+            waviness++;
+        }
+        else if(s[i]-'0'<s[i-1]-'0' && s[i]-'0'<s[i+1]-'0') {
+            waviness++;
+        }
     }
 
-    for(int i=0;i<arr.size();i++) {
-        if(i==0 || i==arr.size()-1) continue;
-
-        if((arr[i]>arr[i-1] && arr[i]>arr[i+1]) ||
-           (arr[i] < arr[i-1] && arr[i] < arr[i+1])) ans+=1;
-    }
-    
-
-    return ans;
-    
+    return waviness;
 }
-
-
-
-
 
 
 
@@ -30,14 +23,12 @@ class Solution {
 public:
     int totalWaviness(int num1, int num2) {
         
-        int ans = 0;
+        int totalWaviness = 0;
 
         for(int i=num1;i<=num2;i++) {
-            int sum = calculateWaviness(i);
-            ans += sum;
+            totalWaviness += calculateWaviness(i);
         }
 
-
-        return ans;
+    return totalWaviness;
     }
 };
