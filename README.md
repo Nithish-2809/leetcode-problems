@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0493-reverse-pairs) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
+| [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0605-can-place-flowers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -503,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Nithish-2809/leetcode-problems/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/0994-rotting-oranges) |
 | [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
@@ -656,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Nithish-2809/leetcode-problems/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
