@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Nithish-2809/leetcode-problems/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
+| [1905-count-sub-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/1905-count-sub-islands) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Nithish-2809/leetcode-problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/2078-two-furthest-houses-with-different-colors) |
@@ -521,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Nithish-2809/leetcode-problems/tree/master/1020-number-of-enclaves) |
 | [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
+| [1905-count-sub-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/1905-count-sub-islands) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -595,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/Nithish-2809/leetcode-problems/tree/master/1020-number-of-enclaves) |
 | [1306-jump-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1306-jump-game-iii) |
+| [1905-count-sub-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/1905-count-sub-islands) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Nithish-2809/leetcode-problems/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Tree
 |  |
@@ -697,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Nithish-2809/leetcode-problems/tree/master/1020-number-of-enclaves) |
 | [1306-jump-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1306-jump-game-iii) |
+| [1905-count-sub-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/1905-count-sub-islands) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Nithish-2809/leetcode-problems/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -748,6 +752,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/Nithish-2809/leetcode-problems/tree/master/1020-number-of-enclaves) |
+| [1905-count-sub-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/1905-count-sub-islands) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Graph Theory
 |  |
