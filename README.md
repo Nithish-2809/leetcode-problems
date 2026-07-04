@@ -599,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/Nithish-2809/leetcode-problems/tree/master/0802-find-eventual-safe-states) |
+| [0841-keys-and-rooms](https://github.com/Nithish-2809/leetcode-problems/tree/master/0841-keys-and-rooms) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0934-shortest-bridge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0934-shortest-bridge) |
 | [0938-range-sum-of-bst](https://github.com/Nithish-2809/leetcode-problems/tree/master/0938-range-sum-of-bst) |
@@ -705,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/Nithish-2809/leetcode-problems/tree/master/0802-find-eventual-safe-states) |
+| [0841-keys-and-rooms](https://github.com/Nithish-2809/leetcode-problems/tree/master/0841-keys-and-rooms) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0934-shortest-bridge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0934-shortest-bridge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -776,6 +778,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/Nithish-2809/leetcode-problems/tree/master/0802-find-eventual-safe-states) |
+| [0841-keys-and-rooms](https://github.com/Nithish-2809/leetcode-problems/tree/master/0841-keys-and-rooms) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Nithish-2809/leetcode-problems/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Shortest Path
