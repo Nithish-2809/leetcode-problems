@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Nithish-2809/leetcode-problems/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Nithish-2809/leetcode-problems/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Nithish-2809/leetcode-problems/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/Nithish-2809/leetcode-problems/tree/master/1631-path-with-minimum-effort) |
 | [1710-maximum-units-on-a-truck](https://github.com/Nithish-2809/leetcode-problems/tree/master/1710-maximum-units-on-a-truck) |
 | [1732-find-the-highest-altitude](https://github.com/Nithish-2809/leetcode-problems/tree/master/1732-find-the-highest-altitude) |
@@ -812,6 +813,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/Nithish-2809/leetcode-problems/tree/master/1020-number-of-enclaves) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Nithish-2809/leetcode-problems/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/Nithish-2809/leetcode-problems/tree/master/1631-path-with-minimum-effort) |
 | [1905-count-sub-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/1905-count-sub-islands) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Nithish-2809/leetcode-problems/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -829,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/Nithish-2809/leetcode-problems/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/Nithish-2809/leetcode-problems/tree/master/0841-keys-and-rooms) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nithish-2809/leetcode-problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Nithish-2809/leetcode-problems/tree/master/1584-min-cost-to-connect-all-points) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Nithish-2809/leetcode-problems/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Shortest Path
@@ -844,4 +847,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Nithish-2809/leetcode-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0210-course-schedule-ii) |
 | [0802-find-eventual-safe-states](https://github.com/Nithish-2809/leetcode-problems/tree/master/0802-find-eventual-safe-states) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Nithish-2809/leetcode-problems/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
