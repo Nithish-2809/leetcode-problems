@@ -346,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1021-remove-outermost-parentheses) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/Nithish-2809/leetcode-problems/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -381,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-online-stock-span](https://github.com/Nithish-2809/leetcode-problems/tree/master/0901-online-stock-span) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1021-remove-outermost-parentheses) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/2104-sum-of-subarray-ranges) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Nithish-2809/leetcode-problems/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/Nithish-2809/leetcode-problems/tree/master/0901-online-stock-span) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [2104-sum-of-subarray-ranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/2104-sum-of-subarray-ranges) |
 ## Dynamic Programming
 |  |
@@ -448,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
 | [0846-hand-of-straights](https://github.com/Nithish-2809/leetcode-problems/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/Nithish-2809/leetcode-problems/tree/master/0860-lemonade-change) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1710-maximum-units-on-a-truck](https://github.com/Nithish-2809/leetcode-problems/tree/master/1710-maximum-units-on-a-truck) |
 | [1833-maximum-ice-cream-bars](https://github.com/Nithish-2809/leetcode-problems/tree/master/1833-maximum-ice-cream-bars) |
