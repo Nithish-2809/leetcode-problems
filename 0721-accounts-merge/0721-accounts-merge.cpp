@@ -78,7 +78,7 @@ public:
             if (mergedMail[i].size() == 0)
                 continue;
 
-            sort(mergedMail[i].begin(), mergedMail[i].end());
+            // sort(mergedMail[i].begin(), mergedMail[i].end());
 
             vector<string> temp;
 
