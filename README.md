@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
 | [0695-max-area-of-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/Nithish-2809/leetcode-problems/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Nithish-2809/leetcode-problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0599-minimum-index-sum-of-two-lists) |
+| [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/Nithish-2809/leetcode-problems/tree/master/0846-hand-of-straights) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
+| [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/Nithish-2809/leetcode-problems/tree/master/0846-hand-of-straights) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1288-remove-covered-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/1288-remove-covered-intervals) |
@@ -347,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
+| [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0796-rotate-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1021-remove-outermost-parentheses) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -640,6 +644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Nithish-2809/leetcode-problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
@@ -753,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Nithish-2809/leetcode-problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
@@ -820,6 +826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/Nithish-2809/leetcode-problems/tree/master/0785-is-graph-bipartite) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Nithish-2809/leetcode-problems/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/Nithish-2809/leetcode-problems/tree/master/1020-number-of-enclaves) |
