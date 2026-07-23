@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1344-angle-between-hands-of-a-clock](https://github.com/Nithish-2809/leetcode-problems/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1840-maximum-building-height](https://github.com/Nithish-2809/leetcode-problems/tree/master/1840-maximum-building-height) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
+| [1922-count-good-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Nithish-2809/leetcode-problems/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Nithish-2809/leetcode-problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/Nithish-2809/leetcode-problems/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0206-reverse-linked-list) |
+| [1922-count-good-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1922-count-good-numbers) |
 ## Sliding Window
 |  |
 | ------- |
