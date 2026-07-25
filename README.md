@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Nithish-2809/leetcode-problems/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0204-count-primes) |
+| [0213-house-robber-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/Nithish-2809/leetcode-problems/tree/master/0238-product-of-array-except-self) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/Nithish-2809/leetcode-problems/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0213-house-robber-ii) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/Nithish-2809/leetcode-problems/tree/master/0403-frog-jump) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
