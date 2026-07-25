@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1922-count-good-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1922-count-good-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3536-maximum-product-of-two-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/3536-maximum-product-of-two-digits) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Nithish-2809/leetcode-problems/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2126-destroying-asteroids](https://github.com/Nithish-2809/leetcode-problems/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Nithish-2809/leetcode-problems/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2784-check-if-array-is-good](https://github.com/Nithish-2809/leetcode-problems/tree/master/2784-check-if-array-is-good) |
+| [3536-maximum-product-of-two-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/3536-maximum-product-of-two-digits) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Linked List
