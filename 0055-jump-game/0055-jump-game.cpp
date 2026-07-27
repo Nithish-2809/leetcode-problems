@@ -1,16 +1,29 @@
 class Solution {
 public:
-    bool canJump(vector<int>& nums) {
+    bool solve(int index, vector<int>& nums, vector<int>& dp) {
         int n = nums.size();
-        int maxReach = 0;
 
-        for(int i=0;i<n;i++) {
-            if(i>maxReach) return false;
-            maxReach = max(maxReach,i+nums[i]);
+        if (index >= n - 1)
+            return true;
 
-            if(maxReach>=n-1) break;
+        if (dp[index] != -1)
+            return dp[index];
+
+        int jumpSize = nums[index];
+
+        for (int jump = 1; jump <= jumpSize; jump++) {
+            if (solve(index + jump, nums, dp))
+                return dp[index] = true;
         }
 
-        return true;
+        return dp[index] = false;
+    }
+
+    bool canJump(vector<int>& nums) {
+        int n = nums.size();
+
+        vector<int> dp(n, -1);
+
+        return solve(0, nums, dp);
     }
 };
