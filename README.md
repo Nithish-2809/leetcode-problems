@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Nithish-2809/leetcode-problems/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0055-jump-game) |
 | [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
+| [0063-unique-paths-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0063-unique-paths-ii) |
 | [0078-subsets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nithish-2809/leetcode-problems/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Nithish-2809/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
@@ -457,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/Nithish-2809/leetcode-problems/tree/master/0091-decode-ways) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -599,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
 | [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
+| [0063-unique-paths-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0063-unique-paths-ii) |
 | [0079-word-search](https://github.com/Nithish-2809/leetcode-problems/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Nithish-2809/leetcode-problems/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/0200-number-of-islands) |
