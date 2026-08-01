@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/Nithish-2809/leetcode-problems/tree/master/0403-frog-jump) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0463-island-perimeter) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/Nithish-2809/leetcode-problems/tree/master/0403-frog-jump) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0509-fibonacci-number) |
