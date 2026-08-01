@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0263-ugly-number) |
 | [0384-shuffle-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0384-shuffle-an-array) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0728-self-dividing-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0728-self-dividing-numbers) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0463-island-perimeter) |
+| [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0493-reverse-pairs) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Nithish-2809/leetcode-problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/Nithish-2809/leetcode-problems/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0206-reverse-linked-list) |
+| [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0509-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1922-count-good-numbers) |
 ## Sliding Window
@@ -476,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0403-frog-jump](https://github.com/Nithish-2809/leetcode-problems/tree/master/0403-frog-jump) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
+| [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0509-fibonacci-number) |
 | [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
@@ -944,4 +948,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0062-unique-paths) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
