@@ -409,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Nithish-2809/leetcode-problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3612-process-string-with-special-operations-i) |
@@ -608,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0287-find-the-duplicate-number) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Nithish-2809/leetcode-problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -688,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/Nithish-2809/leetcode-problems/tree/master/0797-all-paths-from-source-to-target) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Nithish-2809/leetcode-problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Depth-First Search
 |  |
 | ------- |
