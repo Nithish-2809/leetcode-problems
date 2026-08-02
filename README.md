@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0463-island-perimeter) |
 | [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0494-target-sum) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0599-minimum-index-sum-of-two-lists) |
@@ -487,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
+| [0494-target-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0509-fibonacci-number) |
 | [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
@@ -684,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/Nithish-2809/leetcode-problems/tree/master/0797-all-paths-from-source-to-target) |
 ## Depth-First Search
 |  |
