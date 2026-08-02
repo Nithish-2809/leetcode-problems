@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/Nithish-2809/leetcode-problems/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Nithish-2809/leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/Nithish-2809/leetcode-problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/Nithish-2809/leetcode-problems/tree/master/0322-coin-change) |
 | [0396-rotate-function](https://github.com/Nithish-2809/leetcode-problems/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/Nithish-2809/leetcode-problems/tree/master/0403-frog-jump) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
@@ -824,6 +826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Nithish-2809/leetcode-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/Nithish-2809/leetcode-problems/tree/master/0322-coin-change) |
 | [0463-island-perimeter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Nithish-2809/leetcode-problems/tree/master/0547-number-of-provinces) |
