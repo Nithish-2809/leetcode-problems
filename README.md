@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0728-self-dividing-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0728-self-dividing-numbers) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Nithish-2809/leetcode-problems/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/Nithish-2809/leetcode-problems/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/Nithish-2809/leetcode-problems/tree/master/0860-lemonade-change) |
+| [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [0934-shortest-bridge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0934-shortest-bridge) |
@@ -489,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Nithish-2809/leetcode-problems/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nithish-2809/leetcode-problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1463-cherry-pickup-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -957,4 +960,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
