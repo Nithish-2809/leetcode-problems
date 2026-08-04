@@ -403,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-remove-outermost-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1021-remove-outermost-parentheses) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1092-shortest-common-supersequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Nithish-2809/leetcode-problems/tree/master/1189-maximum-number-of-balloons) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Nithish-2809/leetcode-problems/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -510,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Nithish-2809/leetcode-problems/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
 | [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
+| [1092-shortest-common-supersequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Nithish-2809/leetcode-problems/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nithish-2809/leetcode-problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -999,4 +1001,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/0583-delete-operation-for-two-strings) |
+| [1092-shortest-common-supersequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/1092-shortest-common-supersequence) |
 <!---LeetCode Topics End-->
