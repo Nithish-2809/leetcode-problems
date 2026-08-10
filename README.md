@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Nithish-2809/leetcode-problems/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 | [1840-maximum-building-height](https://github.com/Nithish-2809/leetcode-problems/tree/master/1840-maximum-building-height) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
 | [1922-count-good-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1922-count-good-numbers) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nithish-2809/leetcode-problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1463-cherry-pickup-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1463-cherry-pickup-ii) |
+| [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Simulation
@@ -1043,16 +1045,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 ## Minimax
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 ## Longest Common Subsequence
 |  |
 | ------- |
@@ -1062,4 +1067,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/0300-longest-increasing-subsequence) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
