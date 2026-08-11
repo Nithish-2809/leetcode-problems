@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Nithish-2809/leetcode-problems/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0463-island-perimeter) |
+| [0485-max-consecutive-ones](https://github.com/Nithish-2809/leetcode-problems/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0494-target-sum) |
