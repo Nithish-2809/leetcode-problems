@@ -1,35 +1,48 @@
 class Solution {
 public:
-    int evalRPN(vector<string>& nums) {
-        stack<int> st;
+    int evalRPN(vector<string>& tokens) {
+        int n = tokens.size();
+        stack<int>st;
+        int res = 0;
 
-        for(int i = 0; i < nums.size(); i++) {
-
-            if(nums[i] == "+") {
-                int a = st.top(); st.pop();
-                int b = st.top(); st.pop();
-                st.push(b + a);
+        for(int i=0;i<n;i++) {
+            if(tokens[i]=="+") {
+                int firstEl = st.top();
+                st.pop();
+                int secondEl = st.top();
+                st.pop();
+                int el = secondEl + firstEl;
+                st.push(el);
             }
-            else if(nums[i] == "-") {
-                int a = st.top(); st.pop();
-                int b = st.top(); st.pop();
-                st.push(b - a);
+            else if(tokens[i]=="-") {
+                int firstEl = st.top();
+                st.pop();
+                int secondEl = st.top();
+                st.pop();
+                int el = secondEl - firstEl;
+                st.push(el);
             }
-            else if(nums[i] == "*") {
-                int a = st.top(); st.pop();
-                int b = st.top(); st.pop();
-                st.push(b * a);
+            else if(tokens[i]=="*") {
+                int firstEl = st.top();
+                st.pop();
+                int secondEl = st.top();
+                st.pop();
+                int el = secondEl * firstEl;
+                st.push(el);
             }
-            else if(nums[i] == "/") {
-                int a = st.top(); st.pop();
-                int b = st.top(); st.pop();
-                st.push(b / a);
+            else if(tokens[i]=="/") {
+                int firstEl = st.top();
+                st.pop();
+                int secondEl = st.top();
+                st.pop();
+                int el = secondEl / firstEl;
+                st.push(el);
             }
             else {
-                st.push(stoi(nums[i]));
+                st.push(stoi(tokens[i]));
             }
         }
 
-        return st.top();
+    return st.top();
     }
 };
