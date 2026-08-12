@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2615-sum-of-distances](https://github.com/Nithish-2809/leetcode-problems/tree/master/2615-sum-of-distances) |
 | [2784-check-if-array-is-good](https://github.com/Nithish-2809/leetcode-problems/tree/master/2784-check-if-array-is-good) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Nithish-2809/leetcode-problems/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Nithish-2809/leetcode-problems/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2615-sum-of-distances](https://github.com/Nithish-2809/leetcode-problems/tree/master/2615-sum-of-distances) |
 | [2784-check-if-array-is-good](https://github.com/Nithish-2809/leetcode-problems/tree/master/2784-check-if-array-is-good) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Nithish-2809/leetcode-problems/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Nithish-2809/leetcode-problems/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Prefix Sum
 |  |
 | ------- |
