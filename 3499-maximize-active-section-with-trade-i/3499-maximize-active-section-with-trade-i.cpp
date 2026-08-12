@@ -3,35 +3,38 @@ public:
     int maxActiveSectionsAfterTrade(string s) {
         int n = s.length();
 
-        int existingOnes = 0;
-        for (char c : s) {
-            if (c == '1') existingOnes++;
-        }
-
-        vector<int> inactiveBlocks;
+        int onesCnt = 0;
 
         for (int i = 0; i < n; i++) {
-            if (s[i] == '0') {
-                int start = i;
-                int cnt = 0;
-
-                while (start < n && s[start] == '0') {
-                    start++;
-                    cnt++;
-                }
-
-                inactiveBlocks.push_back(cnt);
-                i = start - 1;
+            if (s[i] == '1') {
+                onesCnt++;
             }
         }
 
-        int maxPairSum = 0;
+        vector<int> zeroBlocks;
 
-        for (int i = 0; i + 1 < inactiveBlocks.size(); i++) {
-            maxPairSum = max(maxPairSum,
-                             inactiveBlocks[i] + inactiveBlocks[i + 1]);
+        for (int i = 0; i < n; ) {
+            if (s[i] == '0') {
+                int cnt = 0;
+
+                while (i < n && s[i] == '0') {
+                    cnt++;
+                    i++;
+                }
+
+                zeroBlocks.push_back(cnt);
+            } 
+            else {
+                i++;
+            }
         }
 
-        return existingOnes + maxPairSum;
+        int maxi = 0;
+
+        for (int i = 0; i + 1 < zeroBlocks.size(); i++) {
+            maxi = max(maxi, zeroBlocks[i] + zeroBlocks[i + 1]);
+        }
+
+        return onesCnt + maxi;
     }
 };
