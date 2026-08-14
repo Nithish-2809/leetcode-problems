@@ -1,33 +1,32 @@
 class Solution {
 public:
     string smallestSubsequence(string s) {
-        int n = s.length();
+        vector<int> lastIndex(26);
 
-        vector<bool> taken(26, false);
-        vector<int> lastIndex(26, -1);
-
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < s.size(); i++) {
             lastIndex[s[i] - 'a'] = i;
         }
 
-        string ans = "";
+        vector<bool> taken(26, false);
+        string res;
 
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < s.size(); i++) {
+            char ch = s[i];
 
-            if (taken[s[i] - 'a']) continue;
+            if(taken[ch - 'a']) continue;
 
-            while (!ans.empty() &&
-                   ans.back() > s[i] &&
-                   lastIndex[ans.back() - 'a'] > i) {
+            while(!res.empty() &&
+                  res.back() > ch &&
+                  lastIndex[res.back() - 'a'] > i) {
 
-                taken[ans.back() - 'a'] = false;
-                ans.pop_back();
+                taken[res.back() - 'a'] = false;
+                res.pop_back();
             }
 
-            ans.push_back(s[i]);
-            taken[s[i] - 'a'] = true;
+            res.push_back(ch);
+            taken[ch - 'a'] = true;
         }
 
-        return ans;
+        return res;
     }
 };
