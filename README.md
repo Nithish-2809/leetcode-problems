@@ -1106,4 +1106,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0056-merge-intervals) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/Nithish-2809/leetcode-problems/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
