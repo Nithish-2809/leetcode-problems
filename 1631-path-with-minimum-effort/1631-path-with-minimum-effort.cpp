@@ -4,44 +4,50 @@ public:
         int n = heights.size();
         int m = heights[0].size();
 
-        set<pair<int,pair<int,int>>>st;
+        vector<vector<int>> dist(n, vector<int>(m, INT_MAX));
 
-        vector<vector<int>>dist(n,vector<int>(m,INT_MAX));
-        
-        st.insert({0,{0,0}});
+        set<pair<int,pair<int,int>>> st;
+
         dist[0][0] = 0;
+        st.insert({0,{0,0}});
 
-        int dr[] = {0,0,1,-1};
-        int dc[] = {1,-1,0,0};
-
+        int dr[] = {-1,0,1,0};
+        int dc[] = {0,1,0,-1};
 
         while(!st.empty()) {
-            auto it = *(st.begin());
+            auto it = *st.begin();
             st.erase(st.begin());
+
+            int effort = it.first;
             int row = it.second.first;
             int col = it.second.second;
-            int diff = it.first;
 
-            if(row==n-1 && col==m-1) return diff;
+            if(row == n-1 && col == m-1)
+                return effort;
 
-            for(int i=0;i<4;i++) {
-                int newRow = row+dr[i];
-                int newCol = col+dc[i];
+            for(int k=0;k<4;k++) {
+                int nr = row + dr[k];
+                int nc = col + dc[k];
 
-                if(newRow<=n-1 && newRow>=0 && newCol<=m-1 && newCol>=0) {
-                    int newDist = max(abs(heights[newRow][newCol]-heights[row][col]),diff);
+                if(nr>=0 && nr<n && nc>=0 && nc<m) {
 
-                    if(newDist<dist[newRow][newCol]) {
-                        if(dist[newRow][newCol]!=INT_MAX) {
-                            st.erase({dist[newRow][newCol],{newRow,newCol}});
-                        }
-                        dist[newRow][newCol] = newDist;
-                        st.insert({newDist,{newRow,newCol}});
+                    int currDiff =
+                        abs(heights[row][col] - heights[nr][nc]);
+
+                    int newEffort = max(effort, currDiff);
+
+                    if(newEffort < dist[nr][nc]) {
+
+                        if(dist[nr][nc] != INT_MAX)
+                            st.erase({dist[nr][nc], {nr,nc}});
+
+                        dist[nr][nc] = newEffort;
+                        st.insert({newEffort,{nr,nc}});
                     }
                 }
             }
         }
 
-    return -1;
+        return 0;
     }
 };
