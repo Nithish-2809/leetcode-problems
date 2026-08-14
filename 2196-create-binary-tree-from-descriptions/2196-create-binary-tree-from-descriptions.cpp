@@ -1,33 +1,48 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
-        unordered_map<int, TreeNode*> mp;
-        unordered_set<int> children;
+        unordered_map<int,TreeNode*>mp;
+        unordered_set<int>st;
+        int n = descriptions.size();
 
-        for (auto &d : descriptions) {
-            int parent = d[0];
-            int child = d[1];
-            int isRight = d[2];
+        for(auto d : descriptions) {
+            int parentNode = d[0];
+            int childNode = d[1];
+            int isLeft = d[2];
 
-            if (!mp.count(parent))
-                mp[parent] = new TreeNode(parent);
+            if(!mp.count(parentNode)) {
+                mp[parentNode] = new TreeNode(parentNode);
+            }
 
-            if (!mp.count(child))
-                mp[child] = new TreeNode(child);
+            if(!mp.count(childNode)) {
+                mp[childNode] = new TreeNode(childNode);
+            }
 
-            if (!isRight)
-                mp[parent]->right = mp[child];
-            else
-                mp[parent]->left = mp[child];
+            if(isLeft) {
+                mp[parentNode]->left = mp[childNode];
+            }
+            else {
+                mp[parentNode]->right = mp[childNode];
+            }
 
-            children.insert(child);
+            st.insert(childNode);
         }
 
-        for (auto &[val, node] : mp) {
-            if (!children.count(val))
-                return node;
+        for(auto it : mp) {
+            if(st.find(it.first)==st.end()) return it.second;
         }
 
-        return nullptr;
+    return NULL;
     }
 };
