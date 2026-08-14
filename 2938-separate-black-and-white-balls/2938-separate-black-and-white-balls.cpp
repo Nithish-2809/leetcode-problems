@@ -1,16 +1,17 @@
 class Solution {
 public:
     long long minimumSteps(string s) {
-        long long minSwaps = 0;
-        long long zeroCnt = 0;
+        long long ans = 0;
+        long long ones = 0;
 
-        int n = s.length();
-
-        for(int i=n-1;i>=0;i--) {
-            if(s[i]=='0') zeroCnt++;
-            else minSwaps += zeroCnt;
+        for(char c : s) {
+            if(c == '1') {
+                ones++;
+            } else {
+                ans += ones;
+            }
         }
 
-    return minSwaps;
+        return ans;
     }
 };
