@@ -1134,4 +1134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0022-generate-parentheses) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Nithish-2809/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
