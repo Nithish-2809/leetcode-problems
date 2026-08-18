@@ -1,17 +1,16 @@
-int solve(int i,int j,vector<int>nums,vector<vector<int>>&dp) {
-    if(i==j) {
-        return nums[i];
-    }
+int calculatePlayer1Score(vector<int>&nums,int left,int right) {
+    if(left>right) return 0;
+    if(left==right) return nums[left];
 
+    int score = 0;
 
-    if(j<i) return 0;
+    int pickStart = nums[left]+min(calculatePlayer1Score(nums,left+2,right),
+                                calculatePlayer1Score(nums,left+1,right-1));
 
-    if(dp[i][j]!=-1) return dp[i][j];
+    int pickEnd = nums[right]+min(calculatePlayer1Score(nums,left,right-2),
+                                calculatePlayer1Score(nums,left+1,right-1));
 
-    int pick_i = nums[i] + min(solve(i+2,j,nums,dp),solve(i+1,j-1,nums,dp));
-    int pick_j = nums[j] + min(solve(i,j-2,nums,dp),solve(i+1,j-1,nums,dp));
-
-    return dp[i][j] = max(pick_i,pick_j);
+    return max(pickStart,pickEnd);
 }
 
 
@@ -19,17 +18,14 @@ class Solution {
 public:
     bool predictTheWinner(vector<int>& nums) {
         int n = nums.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
-        int sum = 0;
+        int totalScore = 0;
         for(int i=0;i<n;i++) {
-            sum += nums[i];
+            totalScore += nums[i];
         }
 
-        int player1Points = solve(0,n-1,nums,dp);
-        int player2Points = sum-player1Points;
+        int player1Score = calculatePlayer1Score(nums,0,n-1);
+        int player2Score = totalScore-player1Score;
 
-        if(player1Points>=player2Points) return true;
-
-    return false;
+        return player1Score>=player2Score;
     }
 };
