@@ -1,38 +1,37 @@
 class DisjointSet {
 public:
-    vector<int> rank;
-    vector<int> parent;
+    vector<int> parent, rank;
 
     DisjointSet(int n) {
-        rank.resize(n + 1, 0);
-        parent.resize(n + 1);
+        parent.resize(n);
+        rank.resize(n, 0);
 
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             parent[i] = i;
         }
     }
 
     int findUltimateParent(int node) {
-        if (parent[node] == node)
-            return node;
+        if (node == parent[node]) return node;
 
         return parent[node] = findUltimateParent(parent[node]);
     }
 
     void unionByRank(int u, int v) {
-        int ultp_u = findUltimateParent(u);
-        int ultp_v = findUltimateParent(v);
+        int ult_u = findUltimateParent(u);
+        int ult_v = findUltimateParent(v);
 
-        if (ultp_u == ultp_v)
-            return;
+        if (ult_u == ult_v) return;
 
-        if (rank[ultp_u] < rank[ultp_v]) {
-            parent[ultp_u] = ultp_v;
-        } else if (rank[ultp_v] < rank[ultp_u]) {
-            parent[ultp_v] = ultp_u;
-        } else {
-            parent[ultp_v] = ultp_u;
-            rank[ultp_u]++;
+        if (rank[ult_u] < rank[ult_v]) {
+            parent[ult_u] = ult_v;
+        }
+        else if (rank[ult_v] < rank[ult_u]) {
+            parent[ult_v] = ult_u;
+        }
+        else {
+            parent[ult_v] = ult_u;
+            rank[ult_u]++;
         }
     }
 };
@@ -40,56 +39,54 @@ public:
 class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-
         int n = accounts.size();
 
         DisjointSet ds(n);
 
-        map<string, int> mailNode;
+        unordered_map<string, int> mailMap;
 
         for (int i = 0; i < n; i++) {
             for (int j = 1; j < accounts[i].size(); j++) {
-
                 string mail = accounts[i][j];
 
-                if (mailNode.find(mail) == mailNode.end()) {
-                    mailNode[mail] = i;
-                } else {
-                    ds.unionByRank(i, mailNode[mail]);
+                if (mailMap.find(mail) == mailMap.end()) {
+                    mailMap[mail] = i;
+                }
+                else {
+                    ds.unionByRank(i, mailMap[mail]);
                 }
             }
         }
 
-        vector<vector<string>> mergedMail(n);
+        vector<vector<string>> mergedMails(n);
 
-        for (auto it : mailNode) {
+        for (auto it : mailMap) {
             string mail = it.first;
             int node = it.second;
 
             int parent = ds.findUltimateParent(node);
 
-            mergedMail[parent].push_back(mail);
+            mergedMails[parent].push_back(mail);
         }
 
-        vector<vector<string>> ans;
+        vector<vector<string>> finalAccounts;
 
         for (int i = 0; i < n; i++) {
+            if (mergedMails[i].empty()) continue;
 
-            if (mergedMail[i].size() == 0)
-                continue;
-
-            // sort(mergedMail[i].begin(), mergedMail[i].end());
+            sort(mergedMails[i].begin(), mergedMails[i].end());
 
             vector<string> temp;
 
             temp.push_back(accounts[i][0]);
 
-            for (auto mail : mergedMail[i])
+            for (auto mail : mergedMails[i]) {
                 temp.push_back(mail);
+            }
 
-            ans.push_back(temp);
+            finalAccounts.push_back(temp);
         }
 
-        return ans;
+        return finalAccounts;
     }
 };
