@@ -1099,6 +1099,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimax
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
@@ -1106,6 +1107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Zero-Sum Game
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
