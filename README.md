@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0086-partition-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
+| [0234-palindrome-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Nithish-2809/leetcode-problems/tree/master/0295-find-median-from-data-stream) |
@@ -359,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Nithish-2809/leetcode-problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0237-delete-node-in-a-linked-list) |
 | [0355-design-twitter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0355-design-twitter) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/Nithish-2809/leetcode-problems/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Nithish-2809/leetcode-problems/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0486-predict-the-winner](https://github.com/Nithish-2809/leetcode-problems/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0509-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1922-count-good-numbers) |
@@ -500,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/Nithish-2809/leetcode-problems/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Nithish-2809/leetcode-problems/tree/master/0173-binary-search-tree-iterator) |
+| [0234-palindrome-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/Nithish-2809/leetcode-problems/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
