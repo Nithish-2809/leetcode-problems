@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Nithish-2809/leetcode-problems/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/Nithish-2809/leetcode-problems/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0208-implement-trie-prefix-tree) |
 | [0229-majority-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0229-majority-element-ii) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0086-partition-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0151-reverse-words-in-a-string) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0283-move-zeroes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Nithish-2809/leetcode-problems/tree/master/0295-find-median-from-data-stream) |
@@ -355,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0086-partition-list) |
 | [0146-lru-cache](https://github.com/Nithish-2809/leetcode-problems/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0237-delete-node-in-a-linked-list) |
 | [0355-design-twitter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0355-design-twitter) |
