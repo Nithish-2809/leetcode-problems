@@ -1,20 +1,27 @@
+bool checkIfCanReachZero(vector<int>&nums,int index,vector<int>&visited) {
+    int n = nums.size();
+    if(index<0 || index>=n) return false;
+    if(nums[index]==0) return true;
+    if(visited[index]) return false;
+
+    visited[index] = 1;
+
+    bool jumpForward = checkIfCanReachZero(nums,index+nums[index],visited);
+    bool jumpBackward = checkIfCanReachZero(nums,index-nums[index],visited);
+
+    return jumpForward || jumpBackward;
+}
+
+
+
+
+
+
 class Solution {
 public:
-
-    bool solve(vector<int>& arr, int idx, vector<bool>& visited) {
-        int n = arr.size();
-        if (idx < 0 || idx >= n) return false;
-        if (visited[idx]) return false;
-        if (arr[idx] == 0) return true;
-        visited[idx] = true;
-        int jump = arr[idx];
-        return solve(arr, idx + jump, visited) ||
-               solve(arr, idx - jump, visited);
-    }
-
-    bool canReach(vector<int>& arr, int start) {
-        vector<bool> visited(arr.size(), false);
-
-        return solve(arr, start, visited);
+    bool canReach(vector<int>& nums, int start) {
+        int n = nums.size();
+        vector<int>visited(n,0);
+        return checkIfCanReachZero(nums,start,visited);
     }
 };
