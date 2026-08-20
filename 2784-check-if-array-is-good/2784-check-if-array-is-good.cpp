@@ -2,22 +2,21 @@ class Solution {
 public:
     bool isGood(vector<int>& nums) {
         int n = nums.size();
+        vector<int> hashh(n, 0);
 
-        int maxi = *max_element(nums.begin(), nums.end());
-
-        if(n != maxi + 1) return false;
-
-        vector<int> freq(maxi + 1, 0);
-
-        for(int x : nums) {
-            if(x < 1 || x > maxi) return false;
-            freq[x]++;
+        for (auto it : nums) {
+            if (it >= n) return false;
+            hashh[it]++;
         }
 
-        for(int i = 1; i < maxi; i++) {
-            if(freq[i] != 1) return false;
+        bool isGood = true;
+
+        for (int i = 1; i < n - 1; i++) {
+            if (hashh[i] != 1) isGood = false;
         }
 
-        return freq[maxi] == 2;
+        if (hashh[n - 1] != 2) isGood = false;
+
+        return isGood;
     }
 };
