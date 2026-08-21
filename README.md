@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Nithish-2809/leetcode-problems/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Nithish-2809/leetcode-problems/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/3536-maximum-product-of-two-digits) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Nithish-2809/leetcode-problems/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Nithish-2809/leetcode-problems/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Nithish-2809/leetcode-problems/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -313,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/Nithish-2809/leetcode-problems/tree/master/1631-path-with-minimum-effort) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Nithish-2809/leetcode-problems/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Nithish-2809/leetcode-problems/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Sorting
 |  |
@@ -716,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0204-count-primes) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Nithish-2809/leetcode-problems/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Nithish-2809/leetcode-problems/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -728,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0287-find-the-duplicate-number) |
 | [1386-cinema-seat-allocation](https://github.com/Nithish-2809/leetcode-problems/tree/master/1386-cinema-seat-allocation) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Nithish-2809/leetcode-problems/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Nithish-2809/leetcode-problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Nithish-2809/leetcode-problems/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Divide and Conquer
@@ -1094,6 +1099,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0062-unique-paths) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Nithish-2809/leetcode-problems/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Game Theory
 |  |
 | ------- |
