@@ -1,57 +1,57 @@
 class Solution {
 public:
     vector<int> remainingMethods(int n, int k, vector<vector<int>>& invocations) {
-
-        vector<vector<int>> graph(n);
-
-        for(auto &it : invocations) {
-            graph[it[0]].push_back(it[1]);
+        vector<vector<int>>adj(n);
+        
+        for(auto it : invocations) {
+            int u = it[0];
+            int v = it[1];
+            adj[u].push_back(v);
         }
 
-        vector<bool> suspicious(n, false);
+        vector<int>visited(n,0);
 
-        queue<int> q;
+        queue<int>q;
+
         q.push(k);
-        suspicious[k] = true;
+        visited[k] = 1;
 
         while(!q.empty()) {
             int node = q.front();
             q.pop();
 
-            for(int nei : graph[node]) {
-                if(!suspicious[nei]) {
-                    suspicious[nei] = true;
-                    q.push(nei);
+            for(auto it : adj[node]) {
+                if(!visited[it]) {
+                    visited[it] = 1;
+                    q.push(it);
                 }
             }
         }
 
-        bool canRemove = true;
+        bool allMethods = false;
 
-        for(auto &it : invocations) {
+        for(auto it : invocations) {
             int u = it[0];
             int v = it[1];
 
-            if(!suspicious[u] && suspicious[v]) {
-                canRemove = false;
-                break;
-            }
+            if(!visited[u] && visited[v]) allMethods = true;
         }
 
-        vector<int> ans;
+        vector<int>ans;
 
-        if(!canRemove) {
-            for(int i = 0; i < n; i++) {
+        if(allMethods) {
+            for(int i=0;i<n;i++) {
                 ans.push_back(i);
             }
-        } else {
-            for(int i = 0; i < n; i++) {
-                if(!suspicious[i]) {
+        }
+        else {
+            for(int i=0;i<n;i++) {
+                if(!visited[i]) {
                     ans.push_back(i);
                 }
             }
         }
 
-        return ans;
+    return ans;
     }
 };
