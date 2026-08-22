@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/Nithish-2809/leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0605-can-place-flowers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0628-maximum-product-of-three-numbers) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0355-design-twitter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Nithish-2809/leetcode-problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/Nithish-2809/leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/Nithish-2809/leetcode-problems/tree/master/0846-hand-of-straights) |
@@ -412,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Nithish-2809/leetcode-problems/tree/master/0238-product-of-array-except-self) |
 | [0410-split-array-largest-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0410-split-array-largest-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/Nithish-2809/leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Nithish-2809/leetcode-problems/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1004-max-consecutive-ones-iii) |
