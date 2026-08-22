@@ -1,33 +1,28 @@
-class Solution {
-public:
+void treePaths(TreeNode *root, string s, vector<string>& ans) {
+    if(root == NULL) return;
 
-    void findLeafPath(TreeNode* root, string &path, vector<string>& ans) {
-        if(root == NULL) return;
-
-        int len = path.length();
-
-        path += to_string(root->val);
-
-        if(root->left == NULL && root->right == NULL) {
-            ans.push_back(path);
-
-            path.erase(len); 
-            return;
-        }
-
-        path += "->";
-
-        findLeafPath(root->left, path, ans);
-        findLeafPath(root->right, path, ans);
-
-        path.erase(len);
+    if(s == "") {
+        s = to_string(root->val);
+    }
+    else {
+        s += "->" + to_string(root->val);
     }
 
+    if(root->left == NULL && root->right == NULL) {
+        ans.push_back(s);
+        return;
+    }
+
+    treePaths(root->left, s, ans);
+    treePaths(root->right, s, ans);
+}
+
+class Solution {
+public:
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string> ans;
-        string path = "";
 
-        findLeafPath(root, path, ans);
+        treePaths(root, "", ans);
 
         return ans;
     }
