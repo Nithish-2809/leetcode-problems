@@ -1165,6 +1165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0022-generate-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
