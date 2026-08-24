@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Nithish-2809/leetcode-problems/tree/master/1563-stone-game-v) |
 | [1840-maximum-building-height](https://github.com/Nithish-2809/leetcode-problems/tree/master/1840-maximum-building-height) |
+| [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
 | [1922-count-good-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1922-count-good-numbers) |
 | [1927-sum-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/1927-sum-game) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Nithish-2809/leetcode-problems/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/Nithish-2809/leetcode-problems/tree/master/1861-rotating-the-box) |
+| [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [1905-count-sub-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/1905-count-sub-islands) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Nithish-2809/leetcode-problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1732-find-the-highest-altitude](https://github.com/Nithish-2809/leetcode-problems/tree/master/1732-find-the-highest-altitude) |
+| [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [2574-left-and-right-sum-differences](https://github.com/Nithish-2809/leetcode-problems/tree/master/2574-left-and-right-sum-differences) |
 | [2615-sum-of-distances](https://github.com/Nithish-2809/leetcode-problems/tree/master/2615-sum-of-distances) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -619,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-cherry-pickup-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1463-cherry-pickup-ii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Nithish-2809/leetcode-problems/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Simulation
@@ -1119,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Nithish-2809/leetcode-problems/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Nithish-2809/leetcode-problems/tree/master/2029-stone-game-ix) |
 ## Minimax
@@ -1128,6 +1133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/Nithish-2809/leetcode-problems/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
@@ -1136,6 +1142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/Nithish-2809/leetcode-problems/tree/master/2029-stone-game-ix) |
 ## Longest Common Subsequence
 |  |
