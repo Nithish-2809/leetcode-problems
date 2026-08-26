@@ -1,33 +1,39 @@
 class Solution {
 public:
     bool isPossibleDivide(vector<int>& nums, int k) {
-        
         int n = nums.size();
+        if (n % k != 0) return false;
 
-        sort(nums.begin(),nums.end());
-
-        unordered_map<int,int>mp;
-
-        for(int i=0;i<n;i++) {
-            mp[nums[i]]++;
+        // Step 1: Count the frequency of each number
+        // std::map automatically keeps the keys sorted
+        map<int, int> counts;
+        for (int num : nums) {
+            counts[num]++;
         }
 
-        for(int i=0;i<n;i++) {
+        // Step 2: Try to form groups starting from the smallest available number
+        for (auto it = counts.begin(); it != counts.end(); ++it) {
+            int currentNum = it->first;
+            int count = it->second;
 
-            if(mp[nums[i]]==0) continue;
+            // If this number has already been completely used up in previous groups, skip it
+            if (count == 0) continue;
 
-            mp[nums[i]]--;
-
-            int curr = nums[i];
-
-            for(int j=1;j<k;j++) {
-                if(mp.find(curr+1)==mp.end()) return false;
-                mp[curr+1]--;
-                curr++;
+            // We need 'count' number of groups starting with 'currentNum'
+            // Check if the next k-1 consecutive numbers have enough frequency
+            for (int i = 0; i < k; i++) {
+                int nextNum = currentNum + i;
+                
+                // If the consecutive number doesn't have enough copies, it's impossible
+                if (counts[nextNum] < count) {
+                    return false;
+                }
+                
+                // Deduct the used count
+                counts[nextNum] -= count;
             }
         }
 
-
-    return true;
+        return true;
     }
 };
