@@ -1,32 +1,33 @@
-bool solve(vector<int>& nums, int index, int currSum, int target,
-           vector<vector<int>>& dp) {
+bool isSubsetSumEqualsK(int index,const vector<int>&nums,int k,vector<vector<int>>&dp) {
+    int n = nums.size();
+    if(index>=n) return false;
+    if(k==0) return true;
+    if(dp[index][k]!=-1) return dp[index][k];
+    bool pick = false;
+    if(k>=nums[index]) {
+        pick = isSubsetSumEqualsK(index+1,nums,k-nums[index],dp);
+    }
 
-    if(currSum == target) return true;
-    if(index == nums.size() || currSum > target) return false;
+    bool notPick = isSubsetSumEqualsK(index+1,nums,k,dp);
 
-    if(dp[index][currSum] != -1)
-        return dp[index][currSum];
-
-    bool take = solve(nums, index + 1, currSum + nums[index], target, dp);
-    bool notTake = solve(nums, index + 1, currSum, target, dp);
-
-    return dp[index][currSum] = take || notTake;
+    return dp[index][k] = pick || notPick;
 }
+
 
 class Solution {
 public:
-   bool canPartition(vector<int>& nums) {
-    int totalSum = 0;
+    bool canPartition(vector<int>& nums) {
+        int n = nums.size();
+        int sum = 0;
+    
+        for(int i=0;i<n;i++) {
+            sum += nums[i];
+        }
 
-    for(int x : nums)
-        totalSum += x;
+        if(sum%2!=0) return false;
 
-    if(totalSum % 2)
-        return false;
+        vector<vector<int>> dp(n, vector<int>(sum/2 + 1, -1));
 
-    int target = totalSum / 2;
-    vector<vector<int>> dp(nums.size(), vector<int>(target + 1, -1));
-
-    return solve(nums, 0, 0, target, dp);
-}
+        return isSubsetSumEqualsK(0,nums,sum/2,dp);
+    }
 };
