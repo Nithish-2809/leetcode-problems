@@ -1,45 +1,41 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+struct cmp {
+    bool operator()(ListNode* a, ListNode* b) {
+        return a->val > b->val;
+    }
+};
+
+void traverse(ListNode* head,
+              priority_queue<ListNode*, vector<ListNode*>, cmp>& q) {
+    ListNode* temp = head;
+
+    while (temp != NULL) {
+        q.push(temp);
+        temp = temp->next;
+    }
+}
 
 class Solution {
 public:
-    struct cmp {
-        bool operator()(ListNode* a, ListNode* b) {
-            return a->val > b->val; 
-        }
-    };
-
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        
-       priority_queue<ListNode*, vector<ListNode*>, cmp> minH;
+        priority_queue<ListNode*, vector<ListNode*>, cmp> q;
 
-        for (auto node : lists) {
-            if (node)
-                minH.push(node);
+        for (auto head : lists) {
+            traverse(head, q);
         }
 
-        ListNode dummy(0);
-        ListNode* tail = &dummy;
+        ListNode* dummyNode = new ListNode(-1);
+        ListNode* tail = dummyNode;
 
-        while (!minH.empty()) {
-            ListNode* curr = minH.top();
-            minH.pop();
+        while (!q.empty()) {
+            ListNode* node = q.top();
+            q.pop();
 
-            tail->next = curr;
+            tail->next = node;
             tail = tail->next;
-
-            if (curr->next)
-                minH.push(curr->next);
         }
 
-        return dummy.next;
+        tail->next = nullptr;
+
+        return dummyNode->next;
     }
 };
