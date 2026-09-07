@@ -497,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0721-accounts-merge) |
 | [0796-rotate-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0796-rotate-string) |
+| [0940-distinct-subsequences-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0940-distinct-subsequences-ii) |
 | [1021-remove-outermost-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1021-remove-outermost-parentheses) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -633,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Nithish-2809/leetcode-problems/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0788-rotated-digits) |
 | [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
+| [0940-distinct-subsequences-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0940-distinct-subsequences-ii) |
 | [1092-shortest-common-supersequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/1092-shortest-common-supersequence) |
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/1143-longest-common-subsequence) |
