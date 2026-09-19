@@ -9,70 +9,47 @@
  * };
  */
 
- ListNode *findKthNode(ListNode *node, int k) {
 
-    if(node == NULL) return NULL;
+ListNode *reverseNodes(ListNode *head) {
+    if(head==NULL || head->next==NULL) return head;
 
-    while(--k && node != NULL) {
-        node = node->next;
-    }
+    ListNode *lastNode = head->next;
+    head->next = NULL;
+    lastNode->next = head;
 
-    return node;
+    return lastNode;
 }
 
-ListNode* reverseLinkedList(ListNode *head) {
-    ListNode *prev = NULL;
-    ListNode *curr = head;
-
-    while(curr != NULL) {
-        ListNode *nextNode = curr->next;
-        curr->next = prev;
-        prev = curr;
-        curr = nextNode;
-    }
-
-    return prev;
-}
 
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-         if(head == NULL || head->next==NULL) return head;
-
         ListNode *temp = head;
-        ListNode *prevLast = NULL;
 
-        int k = 2;
+        if(temp == NULL || temp->next == NULL) return temp;
 
-        while(temp != NULL) {
+        ListNode *linkedListHead = head->next;
+        ListNode *prevTail = NULL;
 
-            ListNode *kthNode = findKthNode(temp, k);
+        while(temp != NULL && temp->next != NULL) {
 
-            
-            if(kthNode == NULL) {
-                if(prevLast != NULL)
-                    prevLast->next = temp;
-                break;
+            ListNode *nexthead = temp->next->next;
+
+            temp->next->next = NULL;
+
+            ListNode *newHead = reverseNodes(temp);
+
+            if(prevTail != NULL) {
+                prevTail->next = newHead;
             }
 
-            ListNode *nextNode = kthNode->next;
-            kthNode->next = NULL;
+            newHead->next->next = nexthead;
 
-            
-            ListNode *newHead = reverseLinkedList(temp);
+            prevTail = newHead->next;
 
-            
-            if(temp == head) {
-                head = newHead;
-            }
-            else {
-                prevLast->next = newHead;
-            }
-
-            prevLast = temp;   
-            temp = nextNode;
+            temp = nexthead;
         }
 
-        return head;
+        return linkedListHead;
     }
 };
