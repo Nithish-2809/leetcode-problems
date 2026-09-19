@@ -1,36 +1,33 @@
-int maximumProfit(vector<int>& prices, int index, bool canBuy, int transactionsLeft,vector<vector<vector<int>>>&dp) {
+int maximumProfit(const vector<int>& prices, int index, int transactions,
+                  bool buy, vector<vector<vector<int>>>& dp) {
     int n = prices.size();
-
-    if (index == n || transactionsLeft == 0)
+    if (index > n - 1 || transactions == 2) {
         return 0;
-
-    if(dp[index][canBuy][transactionsLeft]!=-1) return dp[index][canBuy][transactionsLeft];
-
-    if (canBuy) {
-        return dp[index][canBuy][transactionsLeft] = max(
-            -prices[index] + maximumProfit(prices, index + 1, false, transactionsLeft,dp), // buy
-            maximumProfit(prices, index + 1, true, transactionsLeft,dp)                    // skip
-        );
     }
-    else {
-        return dp[index][canBuy][transactionsLeft] = max(
-            prices[index] + maximumProfit(prices, index + 1, true, transactionsLeft - 1,dp), // sell
-            maximumProfit(prices, index + 1, false, transactionsLeft,dp)                      // hold
-        );
+    if (dp[index][transactions][buy] !=-1)
+        return dp[index][transactions][buy];
+    int profit = 0;
+    if (buy) {
+        int take = -prices[index] +
+                   maximumProfit(prices, index + 1, transactions, false,dp);
+        int notTake = maximumProfit(prices, index + 1, transactions, true,dp);
+
+        return dp[index][transactions][buy] = max(take, notTake);
     }
+
+    int sell = prices[index] +
+               maximumProfit(prices, index + 1, transactions + 1, true,dp);
+    int notSell = maximumProfit(prices, index + 1, transactions, false,dp);
+    return dp[index][transactions][buy] = max(sell, notSell);
 }
-
-
 
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         vector<vector<vector<int>>> dp(
-        n,
-        vector<vector<int>>(2, vector<int>(3, -1))
-        );
+            n, vector<vector<int>>(3, vector<int>(2, -1)));
 
-        return maximumProfit(prices,0,true,2,dp);
+        return maximumProfit(prices, 0, 0, true, dp);
     }
 };
