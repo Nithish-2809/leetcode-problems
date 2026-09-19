@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Nithish-2809/leetcode-problems/tree/master/0130-surrounded-regions) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Nithish-2809/leetcode-problems/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Nithish-2809/leetcode-problems/tree/master/0200-number-of-islands) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/Nithish-2809/leetcode-problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Nithish-2809/leetcode-problems/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0208-implement-trie-prefix-tree) |
@@ -357,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Nithish-2809/leetcode-problems/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Nithish-2809/leetcode-problems/tree/master/0242-valid-anagram) |
@@ -463,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Nithish-2809/leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0992-subarrays-with-k-different-integers) |
@@ -796,6 +800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Nithish-2809/leetcode-problems/tree/master/0347-top-k-frequent-elements) |
@@ -1210,6 +1215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0229-majority-element-ii) |
 ## Quicksort
 |  |
