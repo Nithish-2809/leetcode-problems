@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Nithish-2809/leetcode-problems/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Nithish-2809/leetcode-problems/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Nithish-2809/leetcode-problems/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Nithish-2809/leetcode-problems/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Nithish-2809/leetcode-problems/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/0075-sort-colors) |
