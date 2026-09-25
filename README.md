@@ -1248,6 +1248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0416-partition-equal-subset-sum) |
+| [0518-coin-change-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0518-coin-change-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
@@ -1273,4 +1274,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0518-coin-change-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0518-coin-change-ii) |
 <!---LeetCode Topics End-->
