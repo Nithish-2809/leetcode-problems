@@ -1,27 +1,36 @@
-void generateSubsequences(vector<int>nums,int n,vector<vector<int>>&ans,vector<int>ds,int index) {
+void solve(const vector<int>&nums,int index,vector<int>&res,set<vector<int>>&ans) {
+    int n = nums.size();
 
-    ans.push_back(ds);
-
-    for(int i=index;i<n;i++) {
-        if(i>index && nums[i]==nums[i-1]) continue;
-        ds.push_back(nums[i]);
-        generateSubsequences(nums,n,ans,ds,i+1);
-        ds.pop_back();
+    if(index==n) {
+        ans.insert(res);
+        return;
     }
+
+    res.push_back(nums[index]);
+    solve(nums,index+1,res,ans);
+    res.pop_back();
+    solve(nums,index+1,res,ans);
 }
+
+
 
 
 
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        vector<vector<int>>ans;
-        int n = nums.size();
-        vector<int>ds;
-        sort(nums.begin(),nums.end());
-        generateSubsequences(nums,n,ans,ds,0);
+        set<vector<int>>ans;
+        vector<int>res;
+        sort(nums.begin(), nums.end());
 
+        solve(nums,0,res,ans);
 
-        return ans;
+        vector<vector<int>>sol;
+
+        for(auto it : ans) {
+            sol.push_back(it);
+        }
+
+    return sol;
     }
 };
