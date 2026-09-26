@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/Nithish-2809/leetcode-problems/tree/master/1631-path-with-minimum-effort) |
 | [1710-maximum-units-on-a-truck](https://github.com/Nithish-2809/leetcode-problems/tree/master/1710-maximum-units-on-a-truck) |
 | [1732-find-the-highest-altitude](https://github.com/Nithish-2809/leetcode-problems/tree/master/1732-find-the-highest-altitude) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1833-maximum-ice-cream-bars](https://github.com/Nithish-2809/leetcode-problems/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/Nithish-2809/leetcode-problems/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Nithish-2809/leetcode-problems/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nithish-2809/leetcode-problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1386-cinema-seat-allocation](https://github.com/Nithish-2809/leetcode-problems/tree/master/1386-cinema-seat-allocation) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Nithish-2809/leetcode-problems/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Nithish-2809/leetcode-problems/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2615-sum-of-distances](https://github.com/Nithish-2809/leetcode-problems/tree/master/2615-sum-of-distances) |
@@ -527,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1768-merge-strings-alternately](https://github.com/Nithish-2809/leetcode-problems/tree/master/1768-merge-strings-alternately) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Nithish-2809/leetcode-problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1903-largest-odd-number-in-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/1903-largest-odd-number-in-string) |
 | [1927-sum-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/1927-sum-game) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Nithish-2809/leetcode-problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
