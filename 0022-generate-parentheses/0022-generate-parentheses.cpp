@@ -1,29 +1,25 @@
-void getAllParenthesis(int open,int close,int n,string res,vector<string>&ans) {
-    if(res.length()==2*n) {
-        ans.push_back(res);
+void generateBrackets(int n,vector<string>&ans,int open,int close,string s) {
+    if(s.length()==2*n) {
+        ans.push_back(s);
         return;
     }
 
     if(open<n) {
-        getAllParenthesis(open+1,close,n,res+'(',ans);
+        generateBrackets(n,ans,open+1,close,s+'(');
     }
 
     if(close<open) {
-        getAllParenthesis(open,close+1,n,res+')',ans);
+        generateBrackets(n,ans,open,close+1,s+')');
     }
-
 }
-
-
 
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
         vector<string>ans;
 
-        getAllParenthesis(0,0,n,"",ans);
+        generateBrackets(n,ans,0,0,"");
 
-
-    return ans;
+        return ans;
     }
 };
