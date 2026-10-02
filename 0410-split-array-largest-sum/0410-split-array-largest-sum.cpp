@@ -1,51 +1,42 @@
-bool isMinimumPossible(vector<int>nums,int mid,int k) {
+bool isPossible(const vector<int>nums,int mid,int k) {
     int n = nums.size();
-    int sum = 0;
     int subarrays = 1;
+    int sum = 0;
 
     for(int i=0;i<n;i++) {
-        if(sum+nums[i]>mid) {
+        if(nums[i]>mid) return false;
+
+        if(sum+nums[i]<=mid) sum+= nums[i];
+        else {
             subarrays++;
             sum = nums[i];
         }
-        else {
-            sum += nums[i];
-        }
     }
-
 
     return subarrays<=k;
 }
-
-
-
-
-
 
 
 class Solution {
 public:
     int splitArray(vector<int>& nums, int k) {
         int n = nums.size();
-
-        int maxi = INT_MIN;
         int sum = 0;
+        int maxi = INT_MIN;
 
         for(int i=0;i<n;i++) {
-            maxi = max(maxi,nums[i]);
             sum += nums[i];
+            maxi = max(maxi,nums[i]);
         }
 
         int low = maxi;
         int high = sum;
-
-
-        int ans = -1;
+        int ans;
 
         while(low<=high) {
             int mid = low + (high-low)/2;
 
-            if(isMinimumPossible(nums,mid,k)) {
+            if(isPossible(nums,mid,k)) {
                 ans = mid;
                 high = mid-1;
             }
@@ -54,6 +45,6 @@ public:
             }
         }
 
-        return ans;
+    return ans;
     }
 };
