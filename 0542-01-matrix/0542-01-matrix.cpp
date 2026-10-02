@@ -1,57 +1,55 @@
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-
         int n = mat.size();
         int m = mat[0].size();
 
-        vector<vector<int>> ans(n, vector<int>(m));
-        vector<vector<int>> visited(n, vector<int>(m, 0));
+        vector<vector<int>> distance(n, vector<int>(m, 1e9));
+        queue<pair<int,int>> q;
 
-        queue<pair<pair<int,int>,int>> q;
-
-        for(int i=0;i<n;i++) {
-            for(int j=0;j<m;j++) {
-                if(mat[i][j]==0) {
-                    ans[i][j] = 0;
-                    visited[i][j] = 1;
-                    q.push({{i,j},0});
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < m; j++) {
+                if(mat[i][j] == 0) {
+                    distance[i][j] = 0;
+                    q.push({i, j});
                 }
             }
         }
 
         while(!q.empty()) {
-
-            int row = q.front().first.first;
-            int col = q.front().first.second;
-            int dist = q.front().second;
+            int row = q.front().first;
+            int col = q.front().second;
             q.pop();
 
-            if(row<n-1 && !visited[row+1][col]) {
-                visited[row+1][col] = 1;
-                ans[row+1][col] = dist+1;
-                q.push({{row+1,col},dist+1});
+            // down
+            if(row + 1 < n &&
+               distance[row + 1][col] > distance[row][col] + 1) {
+                distance[row + 1][col] = distance[row][col] + 1;
+                q.push({row + 1, col});
             }
 
-            if(col<m-1 && !visited[row][col+1]) {
-                visited[row][col+1] = 1;
-                ans[row][col+1] = dist+1;
-                q.push({{row,col+1},dist+1});
+            // up
+            if(row - 1 >= 0 &&
+               distance[row - 1][col] > distance[row][col] + 1) {
+                distance[row - 1][col] = distance[row][col] + 1;
+                q.push({row - 1, col});
             }
 
-            if(row>0 && !visited[row-1][col]) {
-                visited[row-1][col] = 1;
-                ans[row-1][col] = dist+1;
-                q.push({{row-1,col},dist+1});
+            // right
+            if(col + 1 < m &&
+               distance[row][col + 1] > distance[row][col] + 1) {
+                distance[row][col + 1] = distance[row][col] + 1;
+                q.push({row, col + 1});
             }
 
-            if(col>0 && !visited[row][col-1]) {
-                visited[row][col-1] = 1;
-                ans[row][col-1] = dist+1;
-                q.push({{row,col-1},dist+1});
+            // left
+            if(col - 1 >= 0 &&
+               distance[row][col - 1] > distance[row][col] + 1) {
+                distance[row][col - 1] = distance[row][col] + 1;
+                q.push({row, col - 1});
             }
         }
 
-        return ans;
+        return distance;
     }
 };
