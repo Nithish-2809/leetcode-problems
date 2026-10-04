@@ -1,67 +1,75 @@
-bool isSafe(int row,int col,vector<string>&board,int n) {
-    int dupCol = col;
-    int dupRow = row;
-
-    while(col>=0 && row>=0) {
-        if(board[row][col]=='Q') return false;
-        row--;
-        col--;
-    }
-
-    col = dupCol;
-    row = dupRow;
-
-   while(col >= 0) {
-        if(board[row][col] == 'Q') return false;
-        col--;
-    }
-    
-    col = dupCol;
-    row = dupRow;
-
-    while(row<n && col>=0) {
-        if(board[row][col]=='Q') return false;
-        row++;
-        col--;
-    }
-
-
-    return true;
-}
-
-
-
-
-
-void solve(vector<string>&board,vector<vector<string>>&ans,int n,int col) {
-    if(col==n) {
-        ans.push_back(board);
-        return;
-    }
-
-    for(int i=0;i<n;i++) {
-        if(isSafe(i,col,board,n)) {
-            board[i][col] = 'Q';
-            solve(board,ans,n,col+1);
-            board[i][col] = '.';
-        }
-    }
-}
-
-
-
-
 class Solution {
 public:
+
+    bool isPossibleArrangement(int row,int col,int n,vector<string>& board) {
+
+        // check column
+        for(int i=0;i<row;i++) {
+            if(board[i][col]=='Q') {
+                return false;
+            }
+        }
+
+        // upper left diagonal
+        int r = row;
+        int c = col;
+
+        while(r>=0 && c>=0) {
+            if(board[r][c]=='Q') {
+                return false;
+            }
+
+            r--;
+            c--;
+        }
+
+        // upper right diagonal
+        r = row;
+        c = col;
+
+        while(r>=0 && c<n) {
+            if(board[r][c]=='Q') {
+                return false;
+            }
+
+            r--;
+            c++;
+        }
+
+        return true;
+    }
+
+    void arrangeQueens(int n,
+                       vector<string>& board,
+                       vector<vector<string>>& ans,
+                       int row) {
+
+        if(row==n) {
+            ans.push_back(board);
+            return;
+        }
+
+        for(int col=0;col<n;col++) {
+
+            if(isPossibleArrangement(row,col,n,board)) {
+
+                board[row][col] = 'Q';
+
+                arrangeQueens(n,board,ans,row+1);
+
+                board[row][col] = '.';
+            }
+        }
+    }
+
     vector<vector<string>> solveNQueens(int n) {
+
         vector<vector<string>> ans;
 
-        vector<string> board(n, string(n, '.'));
+        vector<string> board(n,string(n,'.'));
 
-        solve(board,ans,n,0);
-
+        arrangeQueens(n,board,ans,0);
 
         return ans;
-
     }
 };
