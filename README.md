@@ -1318,4 +1318,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/Nithish-2809/leetcode-problems/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
