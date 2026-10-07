@@ -1,31 +1,32 @@
 class Solution {
 public:
     int myAtoi(string s) {
-        int i = 0, n = s.length();
-
-        // 1. Skip spaces
-        while(i < n && s[i] == ' ') i++;
-
-        // 2. Sign
+        int n = s.length();
         int sign = 1;
-        if(i < n && (s[i] == '-' || s[i] == '+')) {
-            if(s[i] == '-') sign = -1;
+        int i = 0;
+
+        while(i<n && s[i]==' ') {
             i++;
         }
 
-        
-        long num = 0;
-
-        while(i < n && isdigit(s[i])) {
-            num = num * 10 + (s[i] - '0');
-
-
-            if(sign * num >= INT_MAX) return INT_MAX;
-            if(sign * num <= INT_MIN) return INT_MIN;
-
+        if(i<n && s[i]=='-') {
+            sign = -1;
+            i++;
+        }
+        else if(i<n && s[i]=='+') {
             i++;
         }
 
-        return sign * num;
+        long long num = 0;
+        while(i<n && s[i]>='0' && s[i]<='9') {
+            num = num*10 +  (s[i]-'0');
+
+            if(sign*num<=INT_MIN) return INT_MIN;
+            if(sign*num>=INT_MAX) return INT_MAX;
+            i++;
+        }
+
+
+    return (int)sign*num;
     }
 };
