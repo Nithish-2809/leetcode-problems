@@ -521,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Nithish-2809/leetcode-problems/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/Nithish-2809/leetcode-problems/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Nithish-2809/leetcode-problems/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Nithish-2809/leetcode-problems/tree/master/0424-longest-repeating-character-replacement) |
@@ -912,6 +913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Nithish-2809/leetcode-problems/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/Nithish-2809/leetcode-problems/tree/master/0257-binary-tree-paths) |
+| [0301-remove-invalid-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/Nithish-2809/leetcode-problems/tree/master/0797-all-paths-from-source-to-target) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Nithish-2809/leetcode-problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
@@ -1061,6 +1063,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Nithish-2809/leetcode-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Nithish-2809/leetcode-problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/Nithish-2809/leetcode-problems/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/Nithish-2809/leetcode-problems/tree/master/0322-coin-change) |
 | [0463-island-perimeter](https://github.com/Nithish-2809/leetcode-problems/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0542-01-matrix) |
