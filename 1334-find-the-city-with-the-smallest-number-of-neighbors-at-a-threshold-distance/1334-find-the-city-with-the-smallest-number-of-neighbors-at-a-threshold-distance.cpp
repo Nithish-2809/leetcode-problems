@@ -1,15 +1,9 @@
 class Solution {
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
-        
-        vector<vector<int>> dist(n, vector<int>(n, 1e9));
+        vector<vector<int>>dist(n,vector<int>(n,1e8));
 
-    
-        for(int i = 0; i < n; i++)
-            dist[i][i] = 0;
-
-        // Undirected graph
-        for(auto &it : edges) {
+        for(auto it : edges) {
             int u = it[0];
             int v = it[1];
             int wt = it[2];
@@ -18,37 +12,37 @@ public:
             dist[v][u] = wt;
         }
 
-        // Floyd Warshall
-        for(int via = 0; via < n; via++) {
-            for(int i = 0; i < n; i++) {
-                for(int j = 0; j < n; j++) {
-                    if(dist[i][via] == 1e9 || dist[via][j] == 1e9)
-                        continue;
+        for(int i=0;i<n;i++) {
+            dist[i][i] = 0;
+        }
 
-                    dist[i][j] = min(dist[i][j],
-                                     dist[i][via] + dist[via][j]);
+        for(int k=0;k<n;k++) {
+            for(int i=0;i<n;i++) {
+                for(int j=0;j<n;j++) {
+                    if(dist[i][k]==1e8 || dist[k][j]==1e8) continue;
+                    dist[i][j] = min(dist[i][j],dist[i][k]+dist[k][j]);
                 }
             }
         }
 
-        int city = -1;
-        int cntCity = INT_MAX;
+        int mini = INT_MAX;
+        int currNode = -1;
 
-        for(int i = 0; i < n; i++) {
+        for(int i=0;i<n;i++) {
             int cnt = 0;
-
-            for(int j = 0; j < n; j++) {
-                if(dist[i][j] <= distanceThreshold)
+            for(int j=0;j<n;j++) {
+                if(dist[i][j]!=1e8 && dist[i][j]<=distanceThreshold) {
                     cnt++;
+                }
             }
 
-            // Choose the city with the greatest index if counts are equal
-            if(cnt <= cntCity) {
-                cntCity = cnt;
-                city = i;
+            if(mini>=cnt) {
+                mini = cnt;
+                currNode = max(currNode,i);
             }
         }
 
-        return city;
+
+    return currNode;
     }
 };
