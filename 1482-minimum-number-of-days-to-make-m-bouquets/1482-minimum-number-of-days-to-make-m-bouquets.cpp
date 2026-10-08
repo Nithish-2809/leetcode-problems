@@ -1,14 +1,14 @@
-bool isPossibleDay(vector<int>nums,int day,int m,int k) {
-    int bouquets = 0;
-    int flowers = 0;
+bool isPossible(vector<int>nums,int mid,int m,int k) {
     int n = nums.size();
+    int boqs = 0;
+    int flowers = 0;
 
     for(int i=0;i<n;i++) {
-        if(nums[i]<=day) {
+        if(nums[i]<=mid) {
             flowers++;
             if(flowers==k) {
-                bouquets++;
-                flowers=0;
+                flowers = 0;
+                boqs++;
             }
         }
         else {
@@ -16,36 +16,31 @@ bool isPossibleDay(vector<int>nums,int day,int m,int k) {
         }
     }
 
-    return bouquets>=m;
+    return boqs>=m;
 }
-
-
 
 
 
 
 class Solution {
 public:
-    int minDays(vector<int>& nums, int m, int k) {
-        int n = nums.size();
+    int minDays(vector<int>& bloomDay, int m, int k) {
+        int n = bloomDay.size();
         if(1LL*k*m>n) return -1;
-
-        int mini = INT_MAX;
         int maxi = INT_MIN;
 
         for(int i=0;i<n;i++) {
-            mini = min(mini,nums[i]);
-            maxi = max(maxi,nums[i]);
+            maxi = max(maxi,bloomDay[i]);
         }
 
-        int low = mini;
+        int low = 0;
         int high = maxi;
-        int ans = 0;
+        int ans = -1;
 
         while(low<=high) {
             int mid = low + (high-low)/2;
 
-            if(isPossibleDay(nums,mid,m,k)) {
+            if(isPossible(bloomDay,mid,m,k)) {
                 ans = mid;
                 high = mid-1;
             }
