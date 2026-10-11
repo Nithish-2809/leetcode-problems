@@ -1,27 +1,30 @@
-int numberOfPaths(int row,int col,int m,int n,vector<vector<int>>&dp) {
-    if(row==m-1 && col==n-1) return 1;
-    
-    int numberOfUniquePaths = 0;
+int calculateNumberOfPaths(int row,int col,const vector<vector<int>>&grid,vector<vector<int>>&dp) {
+    int n = grid.size();
+    int m = grid[0].size();
+
+    if(row==n-1 && col==m-1) return 1;
 
     if(dp[row][col]!=-1) return dp[row][col];
 
-    if(col+1<n) {
-       numberOfUniquePaths += numberOfPaths(row,col+1,m,n,dp);
+    int goBottom = 0;
+    if(row+1<n) {
+        goBottom = calculateNumberOfPaths(row+1,col,grid,dp);
+    }
+    int goRight = 0;
+    if(col+1<m) {
+        goRight = calculateNumberOfPaths(row,col+1,grid,dp);
     }
 
-    if(row+1<m) {
-       numberOfUniquePaths+= numberOfPaths(row+1,col,m,n,dp);
-    }
-
-    return dp[row][col] = numberOfUniquePaths;
+    return dp[row][col] = goBottom+goRight;
 }
 
 
 class Solution {
 public:
     int uniquePaths(int m, int n) {
+        vector<vector<int>>grid(m,vector<int>(n,0));
         vector<vector<int>>dp(m,vector<int>(n,-1));
-        
-        return numberOfPaths(0,0,m,n,dp);
+
+        return calculateNumberOfPaths(0,0,grid,dp);
     }
 };
