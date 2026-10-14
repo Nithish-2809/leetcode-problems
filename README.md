@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/Nithish-2809/leetcode-problems/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Nithish-2809/leetcode-problems/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
@@ -836,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/Nithish-2809/leetcode-problems/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0287-find-the-duplicate-number) |
 | [1386-cinema-seat-allocation](https://github.com/Nithish-2809/leetcode-problems/tree/master/1386-cinema-seat-allocation) |
