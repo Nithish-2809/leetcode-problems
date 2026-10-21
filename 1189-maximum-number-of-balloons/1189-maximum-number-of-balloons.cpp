@@ -1,17 +1,23 @@
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
-        vector<int> freq(26, 0);
+        int balloons = 0;
+        int n = text.size();
+        vector<int>hashh(26,0);
 
-        for(char c : text)
-            freq[c - 'a']++;
+        for(int i=0;i<n;i++) {
+            hashh[text[i]-'a']++;
+        }
 
-        return min({
-            freq['b' - 'a'],
-            freq['a' - 'a'],
-            freq['l' - 'a'] / 2,
-            freq['o' - 'a'] / 2,
-            freq['n' - 'a']
-        });
+        while(hashh[1]>0 && hashh[0]>0 && hashh[11]>1 && hashh[14]>1 && hashh[13]>0) {
+            hashh[1]--;
+            hashh[0]--;
+            hashh[11] -= 2;
+            hashh[14] -= 2;
+            hashh[13]--;
+            balloons++;
+        }
+
+    return balloons;
     }
 };
