@@ -1,40 +1,33 @@
-void dfs(int i,vector<vector<int>>&adj,vector<int>&visited) {
-    visited[i] = 1;
-    for(auto it : adj[i]) {
-        if(!visited[it]) {
-            dfs(it,adj,visited);
-        }
-    }
-}
-
-
-
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int n =  isConnected.size();
+        int n = isConnected.size();
+        vector<int> visited(n, 0);
 
-        vector<vector<int>>adj(n);
+        int provinces = 0;
 
-        for(int i=0;i<n;i++) {
-            for(int j=0;j<n;j++) {
-                if(isConnected[i][j]==1 && i!=j) {
-                    adj[i].push_back(j);
-                    adj[j].push_back(i);
+        for (int i = 0; i < n; i++) {
+            if (!visited[i]) {
+                provinces++;
+
+                queue<int> q;
+                q.push(i);
+                visited[i] = 1;
+
+                while (!q.empty()) {
+                    int node = q.front();
+                    q.pop();
+
+                    for (int j = 0; j < n; j++) {
+                        if (isConnected[node][j] == 1 && !visited[j]) {
+                            visited[j] = 1;
+                            q.push(j);
+                        }
+                    }
                 }
             }
         }
 
-        vector<int>visited(n,0);
-        int cnt = 0;
-
-        for(int i=0;i<n;i++) {
-            if(!visited[i]) {
-                cnt++;
-                dfs(i,adj,visited);
-            }
-        }
-
-    return cnt;
+        return provinces;
     }
 };
