@@ -1,27 +1,30 @@
-int solve(string text1,string text2,int index1,int index2,vector<vector<int>>&dp) {
+int calculateLongestSubsequenceLength(const string &text1,const string &text2,int i,int j,vector<vector<int>>&dp) {
 
-    if(text1 == "ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc") return 0;
-    
-    if(index1<0 || index2<0) return 0;
+    int n1 = text1.length();
+    int n2 = text2.length();
 
-    if(dp[index1][index2]!=-1) return dp[index1][index2];
+    if(i>=n1 || j>=n2) return 0;
 
-    if(text1[index1]==text2[index2]) {
-        return 1 + solve(text1,text2,index1-1,index2-1,dp);
+    if(dp[i][j]!=-1) return dp[i][j];
+
+    if(text1[i]==text2[j]) {
+        return dp[i][j] = 1+calculateLongestSubsequenceLength(text1,text2,i+1,j+1,dp);
     }
 
-    return dp[index1][index2] = max(solve(text1,text2,index1-1,index2,dp),solve(text1,text2,index1,index2-1,dp));
+    return dp[i][j] = max(calculateLongestSubsequenceLength(text1,text2,i+1,j,dp),
+                calculateLongestSubsequenceLength(text1,text2,i,j+1,dp));
 }
-
 
 
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
-        int n1 = text1.size();
-        int n2 = text2.size();
-        vector<vector<int>>dp(n1,vector<int>(n2,-1));
 
-    return solve(text1,text2,n1-1,n2-1,dp);
+        int n1 = text1.length();
+        int n2 = text2.length();
+
+        vector<vector<int>>dp(n1,vector<int>(n2,-1));
+        
+        return calculateLongestSubsequenceLength(text1,text2,0,0,dp);
     }
 };
