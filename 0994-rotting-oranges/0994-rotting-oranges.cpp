@@ -4,63 +4,58 @@ public:
         int n = grid.size();
         int m = grid[0].size();
 
-        vector<vector<int>> visited(n, vector<int>(m, 0));
-        queue<pair<pair<int, int>, int>> q;
+        //{time,{row,column}}
+        queue<pair<int,pair<int,int>>>q;
 
-        // Push all initially rotten oranges
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == 2) {
-                    q.push({{i, j}, 0});
-                    visited[i][j] = 2;
-                }
-                else if (grid[i][j] == 1) {
-                    visited[i][j] = 1;
+        for(int i=0;i<n;i++) {
+            for(int j=0;j<m;j++) {
+                if(grid[i][j]==2) {
+                    q.push({0,{i,j}});
                 }
             }
         }
 
-        int t = 0;
+        int timeTaken = 0;
 
-        while (!q.empty()) {
-            int row = q.front().first.first;
-            int col = q.front().first.second;
-            t = q.front().second;
+        while(!q.empty()) {
+            int time = q.front().first;
+            int row = q.front().second.first;
+            int col = q.front().second.second;
             q.pop();
 
-            // Down
-            if (row + 1 < n && grid[row + 1][col] == 1 && visited[row + 1][col] == 1) {
-                visited[row + 1][col] = 2;
-                q.push({{row + 1, col}, t + 1});
+            timeTaken = max(timeTaken,time);
+
+            //DOWN
+            if(row+1<n && grid[row+1][col]==1) {
+                grid[row+1][col] = 2;
+                q.push({time+1,{row+1,col}});
             }
 
-            // Up
-            if (row - 1 >= 0 && grid[row - 1][col] == 1 && visited[row - 1][col] == 1) {
-                visited[row - 1][col] = 2;
-                q.push({{row - 1, col}, t + 1});
+            //UP
+            if(row-1>=0 && grid[row-1][col]==1) {
+                grid[row-1][col] = 2;
+                q.push({time+1,{row-1,col}});
             }
 
-            // Right
-            if (col + 1 < m && grid[row][col + 1] == 1 && visited[row][col + 1] == 1) {
-                visited[row][col + 1] = 2;
-                q.push({{row, col + 1}, t + 1});
+            //RIGHT
+            if(col+1<m && grid[row][col+1]==1) {
+                grid[row][col+1] = 2;
+                q.push({time+1,{row,col+1}});
             }
 
-            // Left
-            if (col - 1 >= 0 && grid[row][col - 1] == 1 && visited[row][col - 1] == 1) {
-                visited[row][col - 1] = 2;
-                q.push({{row, col - 1}, t + 1});
-            }
-        }
-
-        // Check if any fresh orange remains
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (visited[i][j] == 1)
-                    return -1;
+            //LEFT
+            if(col-1>=0 && grid[row][col-1]==1) {
+                grid[row][col-1] = 2;
+                q.push({time+1,{row,col-1}});
             }
         }
 
-        return t;
+        for(int i=0;i<n;i++) {
+            for(int j=0;j<m;j++) {
+                if(grid[i][j]==1) return -1;
+            }
+        }
+
+    return timeTaken;
     }
 };
