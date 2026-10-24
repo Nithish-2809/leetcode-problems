@@ -24,7 +24,7 @@ public:
             }
 
             int num = sum % 10;
-            carry = sum / 10;
+                carry = sum / 10;
 
             tail->next = new ListNode(num);
             tail = tail->next;
