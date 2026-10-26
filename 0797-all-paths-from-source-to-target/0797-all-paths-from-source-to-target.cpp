@@ -16,8 +16,6 @@ void getAllPaths(const vector<vector<int>>& graph, vector<vector<int>>&ans,
 }
 
 
-
-
 class Solution {
 public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
