@@ -1,16 +1,20 @@
-bool almostMatch(string s1, string s2) {
-        int diff = 0;
+bool isAlmostMatch(string query,string word) {
+    int n = query.size();
+    int m = word.size();
 
-        for(int i = 0; i < s1.length(); i++) {
-            if(s1[i] != s2[i]) {
-                diff++;
-                if(diff > 2) return false;
-            }
+    if(n!=m) return false;
+
+    int edits = 0;
+
+    for(int i=0;i<m;i++) {
+        if(query[i]!=word[i]) {
+            edits++;
+            if(edits>2) return false;
         }
-
-        return true;
     }
 
+    return true;
+}
 
 
 
@@ -18,20 +22,24 @@ bool almostMatch(string s1, string s2) {
 
 class Solution {
 public:
-    vector<string> twoEditWords(vector<string>& nums, vector<string>& arr) {
-        int n = nums.size();
-        int q = arr.size();
+    vector<string> twoEditWords(vector<string>& queries, vector<string>& dictionary) {
+        int n = queries.size();
+        int m = dictionary.size();
         vector<string>ans;
 
+
         for(int i=0;i<n;i++) {
-            for(int j=0;j<q;j++) {
-                if(almostMatch(nums[i],arr[j])) {
-                    ans.push_back(nums[i]);
+            for(int j=0;j<m;j++) {
+                if(queries[i]==dictionary[j]) {
+                    ans.push_back(queries[i]);
+                    break;
+                }
+                else if(isAlmostMatch(queries[i],dictionary[j])) {
+                    ans.push_back(queries[i]);
                     break;
                 }
             }
         }
-
 
     return ans;
     }
