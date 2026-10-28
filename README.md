@@ -331,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/0075-sort-colors) |
 | [0086-partition-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0086-partition-list) |
+| [0148-sort-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Nithish-2809/leetcode-problems/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0202-happy-number) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Nithish-2809/leetcode-problems/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Nithish-2809/leetcode-problems/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0229-majority-element-ii) |
@@ -446,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0092-reverse-linked-list-ii) |
 | [0146-lru-cache](https://github.com/Nithish-2809/leetcode-problems/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0234-palindrome-linked-list) |
@@ -878,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Nithish-2809/leetcode-problems/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Nithish-2809/leetcode-problems/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0148-sort-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
@@ -940,6 +944,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Nithish-2809/leetcode-problems/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/Nithish-2809/leetcode-problems/tree/master/0148-sort-list) |
 | [0493-reverse-pairs](https://github.com/Nithish-2809/leetcode-problems/tree/master/0493-reverse-pairs) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Nithish-2809/leetcode-problems/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/3739-count-subarrays-with-majority-element-ii) |
