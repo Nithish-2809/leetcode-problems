@@ -1,16 +1,29 @@
-void generateSubsequences(vector<int>nums,int target,int index,vector<int>&ds,vector<vector<int>>&ans,int n) {
-    if(target==0) {
+
+void generateSubsequences(vector<int>& candidates, int index, int target,
+                          vector<int>& ds, vector<vector<int>>& ans) {
+    int n = candidates.size();
+
+    if (target == 0) {
         ans.push_back(ds);
         return;
     }
 
-    for(int i=index;i<n;i++) {
-        if(i>index && nums[i]==nums[i-1]) continue;
+    for (int i = index; i < n; i++) {
+        
+        if (i > index && candidates[i] == candidates[i - 1]) {
+            continue;
+        }
 
-        if(nums[i]>target) break;
+        // Since the array is sorted
+        if (candidates[i] > target) {
+            break;
+        }
 
-        ds.push_back(nums[i]);
-        generateSubsequences(nums,target-nums[i],i+1,ds,ans,n);
+        ds.push_back(candidates[i]);
+
+        generateSubsequences(candidates, i + 1,
+                             target - candidates[i], ds, ans);
+
         ds.pop_back();
     }
 }
@@ -18,13 +31,12 @@ void generateSubsequences(vector<int>nums,int target,int index,vector<int>&ds,ve
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector<int>>ans;
-        int n = candidates.size();
-        vector<int>ds;
+        vector<vector<int>> ans;
+        vector<int> ds;
 
-        sort(candidates.begin(),candidates.end());
+        sort(candidates.begin(), candidates.end());
 
-        generateSubsequences(candidates,target,0,ds,ans,n);
+        generateSubsequences(candidates, 0, target, ds, ans);
 
         return ans;
     }
