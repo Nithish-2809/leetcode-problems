@@ -1,19 +1,32 @@
+
+int maximumProfit(vector<int>& prices, int fee, int index, bool buy,
+                  vector<vector<int>>& dp) {
+    int n = prices.size();
+
+    if(index == n) return 0;
+
+    if(dp[index][buy] != -1) return dp[index][buy];
+
+    if(buy) {
+        return dp[index][buy] = max(
+            -prices[index] + maximumProfit(prices, fee, index+1, false, dp),
+            maximumProfit(prices, fee, index+1, true, dp)
+        );
+    }
+
+    return dp[index][buy] = max(
+        prices[index] - fee + maximumProfit(prices, fee, index+1, true, dp),
+        maximumProfit(prices, fee, index+1, false, dp)
+    );
+}
+
 class Solution {
 public:
     int maxProfit(vector<int>& prices, int fee) {
-        int aheadBuy = 0, aheadSell = 0;
+        int n = prices.size();
 
-        for(int i = prices.size() - 1; i >= 0; i--) {
-            int currBuy = max(-prices[i] + aheadSell,
-                              aheadBuy);
+        vector<vector<int>> dp(n, vector<int>(2, -1));
 
-            int currSell = max(prices[i] - fee + aheadBuy,
-                               aheadSell);
-
-            aheadBuy = currBuy;
-            aheadSell = currSell;
-        }
-
-        return aheadBuy;
+        return maximumProfit(prices, fee, 0, true, dp);
     }
 };
