@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0162-find-peak-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Nithish-2809/leetcode-problems/tree/master/0198-house-robber) |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0162-find-peak-element](https://github.com/Nithish-2809/leetcode-problems/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/Nithish-2809/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/0268-missing-number) |
