@@ -2,32 +2,36 @@ class Solution {
 public:
     vector<long long> distance(vector<int>& nums) {
         int n = nums.size();
+
         unordered_map<int, vector<int>> mp;
 
-        // Step 1: store all indices
         for(int i = 0; i < n; i++) {
             mp[nums[i]].push_back(i);
         }
 
         vector<long long> ans(n, 0);
 
-        // Step 2: process each group
-        for(auto &it : mp) {
-            vector<int> &v = it.second;
-            int m = v.size();
+        for(auto it : mp) {
+            vector<int>& indices = it.second;
+            int k = indices.size();
 
-            // prefix pass
-            long long prefixSum = 0;
-            for(int i = 0; i < m; i++) {
-                ans[v[i]] += (long long)v[i] * i - prefixSum;
-                prefixSum += v[i];
+            long long sum = 0;
+
+            for(int idx : indices) {
+                sum += idx;
             }
 
-            // suffix pass
-            long long suffixSum = 0;
-            for(int i = m - 1; i >= 0; i--) {
-                ans[v[i]] += suffixSum - (long long)v[i] * (m - 1 - i);
-                suffixSum += v[i];
+            long long leftSum = 0;
+
+            for(int j = 0; j < k; j++) {
+                long long i = indices[j];
+
+                long long left = i * j - leftSum;
+                long long right = (sum - leftSum - i) - i * (k - j - 1);
+
+                ans[i] = left + right;
+
+                leftSum += i;
             }
         }
 
