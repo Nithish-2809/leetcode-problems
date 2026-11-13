@@ -1,24 +1,14 @@
 class Solution {
 public:
     string smallestPalindrome(string s) {
-        vector<int> hashh(26, 0);
+        int n = s.length();
+        int mid = n/2;
+        sort(s.begin(),s.begin()+mid);
 
-        for (char ch : s)
-            hashh[ch - 'a']++;
-
-        string left = "";
-        string mid = "";
-
-        for (int i = 0; i < 26; i++) {
-            left += string(hashh[i] / 2, char(i + 'a'));
-
-            if (hashh[i] % 2 == 1)
-                mid = char(i + 'a');
+        for(int i=0;i<=n/2;i++) {
+            s[n-i-1] = s[i];
         }
 
-        string right = left;
-        reverse(right.begin(), right.end());
-
-        return left + mid + right;
+    return s;
     }
 };
