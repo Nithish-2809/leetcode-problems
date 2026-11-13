@@ -1,43 +1,27 @@
-bool containsAbc(vector<int>hashh) {
-
-    int n = hashh.size();
-    if(n<3) return false;
-    if(hashh[0]<1 || hashh[1]<1 || hashh[2]<1) return false;
-    
-
-    return true;
-}
-
-
-
-
-
-
-
 class Solution {
 public:
     int numberOfSubstrings(string s) {
-
         int n = s.length();
         int l = 0;
         int r = 0;
-
-        int cnt  = 0;
-        vector<int>hashh(3,0);
+        unordered_map<char,int>mp;
+        int cnt = 0;
 
         while(r<n) {
-            hashh[s[r]-'a']++;
+            mp[s[r]]++;
 
-            while(containsAbc(hashh)) {
-                cnt+= n-r;
-                hashh[s[l]-'a']--;
+            while(mp.find('a')!=mp.end() && mp.find('b')!=mp.end() && mp.find('c')!=mp.end()) {
+                cnt += (n-r);
+                mp[s[l]]--;
+                if(mp[s[l]]==0) {
+                    mp.erase(s[l]);
+                }
                 l++;
             }
 
             r++;
         }
 
-
-        return cnt;
+    return cnt;
     }
 };
