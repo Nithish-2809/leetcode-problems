@@ -1,22 +1,29 @@
 class Solution {
 public:
+
+    static bool cmp(vector<int>a,vector<int>b) {
+        return a[1]>b[1];
+    }
     int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
-        sort(boxTypes.begin(), boxTypes.end(),
-             [](const vector<int>& a, const vector<int>& b) {
-                 return a[1] > b[1];
-             });
+        int n = boxTypes.size();
 
-        int units = 0;
+        sort(boxTypes.begin(),boxTypes.end(),cmp);
+        int ans = 0;
 
-        for (auto &box : boxTypes) {
-            int take = min(truckSize, box[0]);
-            units += take * box[1];
-            truckSize -= take;
+        for(auto it : boxTypes) {
+            int boxes = it[0];
+            int units = it[1];
 
-            if (truckSize == 0)
+            if(boxes<=truckSize) {
+                ans += boxes*units;
+                truckSize -= boxes;
+            }
+            else {
+                ans += truckSize*units;
                 break;
+            }
         }
 
-        return units;
+    return ans;
     }
 };
