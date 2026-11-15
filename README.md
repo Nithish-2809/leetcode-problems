@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1401-circle-and-rectangle-overlapping](https://github.com/Nithish-2809/leetcode-problems/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1563-stone-game-v](https://github.com/Nithish-2809/leetcode-problems/tree/master/1563-stone-game-v) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1840-maximum-building-height](https://github.com/Nithish-2809/leetcode-problems/tree/master/1840-maximum-building-height) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-cherry-pickup-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1463-cherry-pickup-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Nithish-2809/leetcode-problems/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1539-kth-missing-positive-number](https://github.com/Nithish-2809/leetcode-problems/tree/master/1539-kth-missing-positive-number) |
 | [1563-stone-game-v](https://github.com/Nithish-2809/leetcode-problems/tree/master/1563-stone-game-v) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Nithish-2809/leetcode-problems/tree/master/1584-min-cost-to-connect-all-points) |
@@ -527,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1732-find-the-highest-altitude](https://github.com/Nithish-2809/leetcode-problems/tree/master/1732-find-the-highest-altitude) |
 | [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
@@ -755,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1463-cherry-pickup-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1463-cherry-pickup-ii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1563-stone-game-v](https://github.com/Nithish-2809/leetcode-problems/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1872-stone-game-viii) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Nithish-2809/leetcode-problems/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
