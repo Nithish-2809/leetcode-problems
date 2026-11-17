@@ -10,28 +10,30 @@
  * };
  */
 
-int findPath(TreeNode* root, int &maxi) {
-    if(root==NULL) return 0;
+class Solution {
+    int maxSum;
 
-    int lSum = max(0,findPath(root->left,maxi));
-    int rSum = max(0,findPath(root->right,maxi));
-    
-    maxi = max(maxi,root->val+lSum+rSum);
+int solve(TreeNode *node) {
+    if(node==NULL) return 0;
 
-    return root->val + max(lSum,rSum);
-    
+    int l = solve(node->left);
+    int r = solve(node->right);
+
+    int niche_ans_milgaya = node->val + l + r;
+    int koi_ek_accha_mila = node->val + max(l,r);
+    int only_root_accha = node->val;
+
+    maxSum = max({maxSum,niche_ans_milgaya,koi_ek_accha_mila,only_root_accha});
+
+    return max(only_root_accha,koi_ek_accha_mila);
 }
 
-
-
-
-class Solution {
 public:
     int maxPathSum(TreeNode* root) {
-        int maxi = INT_MIN;
+        maxSum =  INT_MIN;
 
-        findPath(root,maxi);
+        solve(root);
 
-        return maxi;
+    return maxSum;
     }
 };
