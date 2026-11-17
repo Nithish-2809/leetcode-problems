@@ -1,37 +1,41 @@
-class Solution {
-public:
+void solve(int index,const string &digits,unordered_map<char,string>&mp,vector<string>&ans,string res) {
+    int n = digits.length();
     
-    void generate(int index, string digits, string &current, 
-                  vector<string> &ans, vector<string> &mapping) {
-        
-        if(index == digits.length()) {
-            ans.push_back(current);
-            return;
-        }
-
-        string letters = mapping[digits[index] - '0'];
-
-        for(char ch : letters) {
-            current.push_back(ch);
-            generate(index + 1, digits, current, ans, mapping);
-            current.pop_back();
-        }
+    if(index==n) {
+        ans.push_back(res);
+        return;
     }
 
+    char num = digits[index];
+
+    for(int i=0;i<mp[num].length();i++) {
+        solve(index+1,digits,mp,ans,res+mp[num][i]);
+    }
+
+}
+
+
+
+
+
+class Solution {
+public:
     vector<string> letterCombinations(string digits) {
-        
-        if(digits.empty()) return {};
+        unordered_map<char,string>mp;
 
-        vector<string> mapping = {
-            "", "", "abc", "def", "ghi",
-            "jkl", "mno", "pqrs", "tuv", "wxyz"
-        };
+        mp['2'] = "abc";
+        mp['3'] = "def";
+        mp['4'] = "ghi";
+        mp['5'] = "jkl";
+        mp['6'] = "mno";
+        mp['7'] = "pqrs";
+        mp['8'] = "tuv";
+        mp['9'] = "wxyz";
 
-        vector<string> ans;
-        string current;
+        vector<string>ans;
 
-        generate(0, digits, current, ans, mapping);
+        solve(0,digits,mp,ans,"");
 
-        return ans;
+    return ans;
     }
 };
