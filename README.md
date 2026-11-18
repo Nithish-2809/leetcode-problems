@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/Nithish-2809/leetcode-problems/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/Nithish-2809/leetcode-problems/tree/master/0860-lemonade-change) |
+| [0867-transpose-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Nithish-2809/leetcode-problems/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/Nithish-2809/leetcode-problems/tree/master/0904-fruit-into-baskets) |
@@ -778,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
+| [0867-transpose-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0867-transpose-matrix) |
 | [1260-shift-2d-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1260-shift-2d-grid) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Nithish-2809/leetcode-problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Nithish-2809/leetcode-problems/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -952,6 +954,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Nithish-2809/leetcode-problems/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/Nithish-2809/leetcode-problems/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/Nithish-2809/leetcode-problems/tree/master/0827-making-a-large-island) |
+| [0867-transpose-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0867-transpose-matrix) |
 | [0934-shortest-bridge](https://github.com/Nithish-2809/leetcode-problems/tree/master/0934-shortest-bridge) |
 | [0994-rotting-oranges](https://github.com/Nithish-2809/leetcode-problems/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Nithish-2809/leetcode-problems/tree/master/1020-number-of-enclaves) |
