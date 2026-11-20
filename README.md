@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Nithish-2809/leetcode-problems/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Nithish-2809/leetcode-problems/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Nithish-2809/leetcode-problems/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Nithish-2809/leetcode-problems/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Nithish-2809/leetcode-problems/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Nithish-2809/leetcode-problems/tree/master/0057-insert-interval) |
@@ -782,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/Nithish-2809/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [0867-transpose-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0867-transpose-matrix) |
@@ -944,6 +946,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Nithish-2809/leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Nithish-2809/leetcode-problems/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Nithish-2809/leetcode-problems/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/0064-minimum-path-sum) |
