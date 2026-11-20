@@ -1,36 +1,36 @@
-class Solution {
-public:
-    const int INF = 1e9;
+int numberOfCoins(vector<int>& coins, int amount, int index,vector<vector<int>>&dp) {
 
-    int solve(vector<int>& coins, int index, int amount,vector<vector<int>>&dp) {
-        int n = coins.size();
+    if(amount == 0) return 0;
 
-        if (amount == 0)
-            return 0;
+    if(amount < 0 || index == coins.size())
+        return INT_MAX;
 
-        if (index == n)
-            return INF;
+    if(dp[index][amount]!=-1) return dp[index][amount];
 
-        if(dp[index][amount]!=-1) return dp[index][amount];
+    int notTake = numberOfCoins(coins, amount, index + 1,dp);
 
-        // Don't take current coin
-        int notTake = solve(coins, index + 1, amount,dp);
+    int take = INT_MAX;
 
-        // Take current coin (stay at same index)
-        int take = INF;
-        if (coins[index] <= amount) {
-            take = 1 + solve(coins, index, amount - coins[index],dp);
-        }
+    if(coins[index] <= amount) {
+        int res = numberOfCoins(coins, amount - coins[index], index,dp);
 
-        return dp[index][amount] = min(take, notTake);
+        if(res != INT_MAX)
+            take = 1 + res;
     }
 
-    int coinChange(vector<int>& coins, int amount) {
-        int n = coins.size();
-        vector<vector<int>>dp(n,vector<int>(amount+1,-1));
-        int ans = solve(coins, 0, amount,dp);
-       
+    return dp[index][amount] = min(notTake, take);
+}
 
-        return (ans >= INF) ? -1 : ans;
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
+
+        int n = coins.size();
+
+        vector<vector<int>>dp(n,vector<int>(amount+1,-1));
+
+        int ans = numberOfCoins(coins, amount, 0,dp);
+
+        return ans == INT_MAX ? -1 : ans;
     }
 };
