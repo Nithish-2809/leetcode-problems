@@ -1,32 +1,28 @@
-bool coveredCheck(vector<vector<int>>& intervals,int i) {
-    int n = intervals.size();
-
-    for(int j=0;j<n;j++) {
-        if(j!=i) {
-            if(intervals[i][0]>=intervals[j][0] && intervals[i][1]<=intervals[j][1]) {
-                return true;
-            }
-        }
-    }
-
-return false;
-}
-
-
-
-
 class Solution {
 public:
     int removeCoveredIntervals(vector<vector<int>>& intervals) {
         int n = intervals.size();
-        int ans = n;
-        
-        for(int i=0;i<n;i++) {
-            if(coveredCheck(intervals,i)) {
-                ans--;
+
+        sort(intervals.begin(), intervals.end(), [](vector<int>& a, vector<int>& b) {
+            if (a[0] == b[0])
+                return a[1] > b[1];
+
+            return a[0] < b[0];
+        });
+
+        vector<vector<int>> ans;
+        ans.push_back(intervals[0]);
+
+        for (int i = 1; i < n; i++) {
+            if (intervals[i][0] >= ans.back()[0] &&
+                intervals[i][1] <= ans.back()[1]) {
+                continue;
+            }
+            else {
+                ans.push_back(intervals[i]);
             }
         }
 
-    return ans;
+        return ans.size();
     }
 };
