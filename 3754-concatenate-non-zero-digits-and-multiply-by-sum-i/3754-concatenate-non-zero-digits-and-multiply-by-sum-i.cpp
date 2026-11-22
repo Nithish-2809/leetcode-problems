@@ -1,28 +1,27 @@
 class Solution {
 public:
     long long sumAndMultiply(int n) {
-        long long res = 0;
-        long long sum = 0;
+        
+        string num = "";
+        string res = to_string(n);
+        int k = res.length();
 
-        while(n!=0) {
-            int ld = n%10;
+        for(int i=0;i<k;i++) {
+            if(res[i]!='0') num += res[i];
+        }
+
+        if(num=="") return 0;
+
+        int sum = 0;
+        int x = stoll(num);
+        int temp = x;
+
+        while(temp!=0) {
+            int ld = temp%10;
             sum += ld;
-            if(ld!=0) {
-                res = res*10 + ld;
-            }
-
-            n = n/10;
+            temp /= 10;
         }
 
-        long long ans = 0;
-        while(res!=0) {
-            int ld = res%10;
-            ans = ans*10 + ld;
-            res /=10;
-        }
-
-
-    return ans*sum;
-
+    return 1LL*x*sum;
     }
 };
