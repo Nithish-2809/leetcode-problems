@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Nithish-2809/leetcode-problems/tree/master/1344-angle-between-hands-of-a-clock) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1352-product-of-the-last-k-numbers) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Nithish-2809/leetcode-problems/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nithish-2809/leetcode-problems/tree/master/1510-stone-game-iv) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1306-jump-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1306-jump-game-iii) |
 | [1331-rank-transform-of-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1331-rank-transform-of-an-array) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1352-product-of-the-last-k-numbers) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1386-cinema-seat-allocation](https://github.com/Nithish-2809/leetcode-problems/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1406-stone-game-iii) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/Nithish-2809/leetcode-problems/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Nithish-2809/leetcode-problems/tree/master/1248-count-number-of-nice-subarrays) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1352-product-of-the-last-k-numbers) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Nithish-2809/leetcode-problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Nithish-2809/leetcode-problems/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
@@ -703,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0384-shuffle-an-array](https://github.com/Nithish-2809/leetcode-problems/tree/master/0384-shuffle-an-array) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Nithish-2809/leetcode-problems/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/Nithish-2809/leetcode-problems/tree/master/0901-online-stock-span) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1352-product-of-the-last-k-numbers) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -889,6 +893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Nithish-2809/leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Nithish-2809/leetcode-problems/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/Nithish-2809/leetcode-problems/tree/master/0901-online-stock-span) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Nithish-2809/leetcode-problems/tree/master/1352-product-of-the-last-k-numbers) |
 ## Trie
 |  |
 | ------- |
